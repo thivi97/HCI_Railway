@@ -73,7 +73,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">OVERVIEW</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="#"><span class="item-text">HISTORY</span></a>
+                        <a class="dropdown-item" href="History.jsp"><span class="item-text">HISTORY</span></a>
                         <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="#"><span class="item-text">FUTURE PLANS</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -89,7 +89,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">TRAIN SCHEDULE</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="#"><span class="item-text">PASSENGER SERVICE</span></a>
+                        <a class="dropdown-item" href="PassengerServices.jsp"><span class="item-text">PASSENGER SERVICE</span></a>
                          <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="#"><span class="item-text">GOODS & PARCELS</span></a>
                          <div class="dropdown-items-divide-hr"></div>

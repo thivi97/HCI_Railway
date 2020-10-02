@@ -79,7 +79,7 @@
                         <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="#"><span class="item-text">OUR NETWORK</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="#"><span class="item-text">SLR AT A GLANCE</span></a>
+                        <a class="dropdown-item" href="SLRatGlance.jsp"><span class="item-text">SLR AT A GLANCE</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
@@ -100,7 +100,7 @@
                 </li>
                 <!-- end of dropdown menu -->
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#callMe">GALLERY</a>
+                    <a class="nav-link page-scroll" href="Gallery.jsp">GALLERY</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#projects">TOURISM</a>
@@ -116,7 +116,7 @@
                         <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="#"><span class="item-text">OTHER NOTICES</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="#"><span class="item-text">DOWNLOADS</span></a>
+                        <a class="dropdown-item" href="Downloads.jsp"><span class="item-text">DOWNLOADS</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
@@ -271,7 +271,7 @@
                                 <a class="white" href="#">OVERVIEW</a>
                             </li>
                             <li>
-                                <a class="white" href="#">HISTORY</a>
+                                <a class="white" href="History.jsp">HISTORY</a>
                             </li>
                             <li>
                                 <a class="white" href="">FUTURE PLANS</a>
@@ -280,7 +280,7 @@
                                 <a class="white" href="">OUR NETWORK</a>
                             </li>
                             <li>
-                                <a class="white" href="">SLR at a GLANCE</a>
+                                <a class="white" href="SLRatGlance.jsp">SLR at a GLANCE</a>
                             </li>
                         </ul>
                     </div> <!-- end of text-container -->
@@ -321,7 +321,7 @@
                                 <a class="white" href="#">OTHER NOTICES</a>
                             </li>
                             <li>
-                                <a class="white" href="">DOWNLOADS</a>
+                                <a class="white" href="Downloads.jsp">DOWNLOADS</a>
                             </li>
                         </ul>
                     </div> <!-- end of text-container -->

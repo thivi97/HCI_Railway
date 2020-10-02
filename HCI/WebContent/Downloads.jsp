@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>SLR at GLANCE</title>
+<title>Downloads</title>
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -17,44 +17,26 @@
 <link href="css/magnific-popup.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 <!-- Favicon  -->
 <link rel="icon" href="images/favicon.png">
 
 
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 70%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-
-
-
 
 </head>
+
+
 <body>
 
 <!-- Preloader -->
-	<div class="spinner-wrapper">
+	<!-- <div class="spinner-wrapper">
 		<div class="spinner">
 			<div class="bounce1"></div>
 			<div class="bounce2"></div>
 			<div class="bounce3"></div>
 		</div>
-	</div>
+	</div> -->
 	<!-- end of preloader -->
 
 	<!-- Navbar -->
@@ -99,8 +81,7 @@ tr:nth-child(even) {
 						<a class="dropdown-item" href="#"><span class="item-text">OUR
 								NETWORK</span></a>
 						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="#"><span class="item-text">SLR
-								AT A GLANCE</span></a>
+						<a class="dropdown-item" href="SLRatGlance.jsp"><span class="item-text">SLR AT A GLANCE</span></a>
 					</div></li>
 				<!-- end of dropdown menu -->
 				<!-- Dropdown Menu -->
@@ -125,7 +106,7 @@ tr:nth-child(even) {
 					</div></li>
 				<!-- end of dropdown menu -->
 				<li class="nav-item"><a class="nav-link page-scroll"
-					href="#callMe">GALLERY</a></li>
+					href="Gallery.jsp">GALLERY</a></li>
 				<li class="nav-item"><a class="nav-link page-scroll"
 					href="#projects">TOURISM</a></li>
 
@@ -144,7 +125,7 @@ tr:nth-child(even) {
 						<a class="dropdown-item" href="#"><span class="item-text">OTHER
 								NOTICES</span></a>
 						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="#"><span class="item-text">DOWNLOADS</span></a>
+						<a class="dropdown-item" href="Downlodas.jsp"><span class="item-text">DOWNLOADS</span></a>
 					</div></li>
 				<!-- end of dropdown menu -->
 				
@@ -162,7 +143,7 @@ tr:nth-child(even) {
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>SLR at GLANCE</h1>
+					<h1>Downloads</h1>
 				</div>
 				<!-- end of col -->
 			</div>
@@ -180,7 +161,7 @@ tr:nth-child(even) {
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcrumbs">
-						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>SLR at GLANCE</span>
+						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>Downloads</span>
 					</div>
 					<!-- end of breadcrumbs -->
 				</div>
@@ -194,97 +175,152 @@ tr:nth-child(even) {
 	<!-- end of breadcrumbs -->
 
 
-
-
-
-
 <div class="container">
 
-<h2>Operation</h2>
-
-<table>
-  
-  <tr>
-    <td>Number of Trains per day</td>
-    <td>411</td>
-  </tr>
-  
-  <tr>
-    <td>Passenger Trains per day</td>
-    <td>386</td>
-  </tr>
-  
-  <tr>
-    <td>Goods Trains per day</td>
-    <td>25</td>
-  </tr>
-  
-  <tr>
-    <td>Passengers Carried per day</td>
-    <td>348,206</td>
-  </tr>
-  
-  <tr>
-    <td>Number of Stations</td>
-    <td>162</td>
-  </tr>
-  
-  <tr>
-    <td>Number of of Sub Stations</td>
-    <td>149</td>
-  </tr>
-  
-  <tr>
-    <td>Train Control Centers</td>
-    <td>03</td>
-  </tr>
-  
-</table>
+<h2 class="title" style="text-align:center; margin-bottom:20px;">Recruitment</h2>
 
 
-<h2>Tracks</h2>
+		<table class="table table-bordered" width="100%">
+		<col style="width:75%">
+		<col style="width:25%">
+			<tbody>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Technicians (form 3.1(c))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-<table>
-  
-  <tr>
-    <td>Route Length</td>
-    <td>1340.486 km</td>
-  </tr>
-  
-  <tr>
-    <td>Four Tracks</td>
-    <td>1.895 km</td>
-  </tr>
-  
-  <tr>
-    <td>Double Track</td>
-    <td>140.693 km</td>
-  </tr>
-  
-  <tr>
-    <td>Single Track</td>
-    <td>1186.141 km</td>
-  </tr>
-  
-  <tr>
-    <td>Number of Stations</td>
-    <td>162</td>
-  </tr>
-  
-  <tr>
-    <td>Number of of Sub Stations</td>
-    <td>149</td>
-  </tr>
-  
-  <tr>
-    <td>Train Control Centers</td>
-    <td>03</td>
-  </tr>
-  
-</table>
+		<br>
+
+
+<br><br><br>
+
+<h2 class="title" style="text-align:center; margin-bottom:20px;">Tender Notice</h2>
+
+
+		<table class="table table-bordered" width="100%">
+		<col style="width:75%">
+		<col style="width:25%">
+			<tbody>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Technicians (form 3.1(c))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+<br><br><br>
+
+
+<h2 class="title" style="text-align:center; margin-bottom:20px;">Train Reservation</h2>
+
+
+		<table class="table table-bordered" width="100%">
+		<col style="width:75%">
+		<col style="width:25%">
+			<tbody>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Technicians (form 3.1(c))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+<br><br><br>
+
+<h2 class="title" style="text-align:center; margin-bottom:20px;">Application</h2>
+
+
+		<table class="table table-bordered" width="100%">
+		<col style="width:75%">
+		<col style="width:25%">
+			<tbody>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Technicians (form 3.1(c))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
 
 </div>
 
+<br><br>
 
 
 
@@ -303,34 +339,7 @@ tr:nth-child(even) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Footer -->
+<!-- Footer -->
 	<div class="footer">
 		<div class="container">
 			<div class="row">
@@ -348,7 +357,7 @@ tr:nth-child(even) {
 							<li><a class="white" href="History.jsp">HISTORY</a></li>
 							<li><a class="white" href="">FUTURE PLANS</a></li>
 							<li><a class="white" href="">OUR NETWORK</a></li>
-							<li><a class="white" href="">SLR at a GLANCE</a></li>
+							<li><a class="white" href="SLRatGlance.jsp">SLR at a GLANCE</a></li>
 						</ul>
 					</div>
 					<!-- end of text-container -->
@@ -449,6 +458,10 @@ tr:nth-child(even) {
 	<script src="js/scripts.js"></script>
 	<!-- Custom scripts -->
 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 	<script type="text/javascript">
 	function googleTranslateElementInit() {
 				new google.translate.TranslateElement({
@@ -458,6 +471,13 @@ tr:nth-child(even) {
 	</script>
 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+
+
+
 
 </body>
 </html>

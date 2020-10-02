@@ -75,7 +75,7 @@
 						<a class="dropdown-item" href="#"><span class="item-text">OUR
 								NETWORK</span></a>
 						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="#"><span class="item-text">SLR
+						<a class="dropdown-item" href="SLRatGlance.jsp"><span class="item-text">SLR
 								AT A GLANCE</span></a>
 					</div></li>
 				<!-- end of dropdown menu -->
@@ -101,7 +101,7 @@
 					</div></li>
 				<!-- end of dropdown menu -->
 				<li class="nav-item"><a class="nav-link page-scroll"
-					href="#callMe">GALLERY</a></li>
+					href="Gallery.jsp">GALLERY</a></li>
 				<li class="nav-item"><a class="nav-link page-scroll"
 					href="#projects">TOURISM</a></li>
 
@@ -120,7 +120,7 @@
 						<a class="dropdown-item" href="#"><span class="item-text">OTHER
 								NOTICES</span></a>
 						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="#"><span class="item-text">DOWNLOADS</span></a>
+						<a class="dropdown-item" href="Downloads.jsp"><span class="item-text">DOWNLOADS</span></a>
 					</div></li>
 				<!-- end of dropdown menu -->
 				
@@ -303,7 +303,7 @@
 							<li><a class="white" href="History.jsp">HISTORY</a></li>
 							<li><a class="white" href="">FUTURE PLANS</a></li>
 							<li><a class="white" href="">OUR NETWORK</a></li>
-							<li><a class="white" href="">SLR at a GLANCE</a></li>
+							<li><a class="white" href="SLRatGlance.jsp">SLR at a GLANCE</a></li>
 						</ul>
 					</div>
 					<!-- end of text-container -->
@@ -330,7 +330,7 @@
 							<li><a class="white" href="#">TENDER NOTICES</a></li>
 							<li><a class="white" href="#">DEPARTMENT NOTICES</a></li>
 							<li><a class="white" href="#">OTHER NOTICES</a></li>
-							<li><a class="white" href="">DOWNLOADS</a></li>
+							<li><a class="white" href="Downloads.jsp">DOWNLOADS</a></li>
 						</ul>
 					</div>
 					<!-- end of text-container -->

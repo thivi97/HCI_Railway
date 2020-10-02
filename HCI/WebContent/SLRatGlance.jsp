@@ -3,11 +3,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
+<html lang="en-US">
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Gallery</title>
-
+<title>SLR at GLANCE</title>
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -17,169 +17,70 @@
 <link href="css/swiper.css" rel="stylesheet">
 <link href="css/magnific-popup.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
-
 <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+
 
 <!-- Favicon  -->
 <link rel="icon" href="images/favicon.png">
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {
-  font-family: Verdana, sans-serif;
-  margin: 0;
-}
-
 * {
   box-sizing: border-box;
 }
 
-.row > .column {
-  padding: 0 8px;
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
+/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
+</style>
 
-.column {
-  float: left;
-  width: 25%;
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
 }
 
-/* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
-/* Modal Content */
-.modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 90%;
-  max-width: 1200px;
-}
-
-/* The Close Button */
-.close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.mySlides {
-  display: none;
-}
-
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-img {
-  margin-bottom: -4px;
-}
-
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
-
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-img.hover-shadow {
-  transition: 0.3s;
-}
-
-.hover-shadow:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 </style>
+
+
+
 
 
 </head>
 <body>
 
 <!-- Preloader -->
-	<!-- <div class="spinner-wrapper">
+	<div class="spinner-wrapper">
 		<div class="spinner">
 			<div class="bounce1"></div>
 			<div class="bounce2"></div>
 			<div class="bounce3"></div>
 		</div>
-	</div> -->
+	</div>
 	<!-- end of preloader -->
 
-<!-- Navbar -->
+	<!-- Navbar -->
 	<nav
 		class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top"
 		style="background: #0000002e !important;">
@@ -247,7 +148,7 @@ img.hover-shadow {
 					</div></li>
 				<!-- end of dropdown menu -->
 				<li class="nav-item"><a class="nav-link page-scroll"
-					href="#callMe">GALLERY</a></li>
+					href="Gallery.jsp">GALLERY</a></li>
 				<li class="nav-item"><a class="nav-link page-scroll"
 					href="#projects">TOURISM</a></li>
 
@@ -279,13 +180,12 @@ img.hover-shadow {
 	</nav>
 	<!-- end of navbar -->
 
-
-<!-- Header -->
+	<!-- Header -->
 	<header id="header" class="ex-header" style="padding-top:100px !important; padding-bottom:100px !important; background-image: url('images/history-banner.webp')">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Gallery</h1>
+					<h1>SLR at GLANCE</h1>
 				</div>
 				<!-- end of col -->
 			</div>
@@ -293,15 +193,17 @@ img.hover-shadow {
 		</div>
 		<!-- end of container -->
 	</header>
-	
-	
-		<!-- Breadcrumbs -->
+	<!-- end of ex-header -->
+	<!-- end of header -->
+
+
+	<!-- Breadcrumbs -->
 	<div class="ex-basic-1">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcrumbs">
-						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>Gallery</span>
+						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>SLR at GLANCE</span>
 					</div>
 					<!-- end of breadcrumbs -->
 				</div>
@@ -311,171 +213,198 @@ img.hover-shadow {
 		</div>
 		<!-- end of container -->
 	</div>
+	<!-- end of ex-basic-1 -->
+	<!-- end of breadcrumbs -->
 
 
+<div class="container">
 
+<div class="row">
+  <div class="column" style="background-color:white;">
+    
+    <p><h2>Tracks</h2>
 
+<table>
+  
+  <tr>
+    <td>Route Length</td>
+    <td>1340.486 km</td>
+  </tr>
+  
+  <tr>
+    <td>Four Tracks</td>
+    <td>1.895 km</td>
+  </tr>
+  
+  <tr>
+    <td>Double Track</td>
+    <td>140.693 km</td>
+  </tr>
+  
+  <tr>
+    <td>Single Track</td>
+    <td>1186.141 km</td>
+  </tr>
+  
+  <tr>
+    <td>Number of Stations</td>
+    <td>162</td>
+  </tr>
+  
+  <tr>
+    <td>Number of of Sub Stations</td>
+    <td>149</td>
+  </tr>
+  
+  <tr>
+    <td>Train Control Centers</td>
+    <td>03</td>
+  </tr>
+  
+</table></p>
+  </div>
+  
+  
+  <div class="column" style="background-color:white;">
+    
+    <p><h2>Operation</h2>
 
-
-<div class="container" style="padding-bottom:30px;">
-	<div class="row">
-		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
-				onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-		</div>
-		<div class="column" style="margin-bottom:20px;">
-			<img src="images/history-1.jpg" style="width: 100%"
-				onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-		</div>
-		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
-				onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-		</div>
-		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
-				onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-		</div>
-		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
-				onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
-		</div>
-		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
-				onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
-		</div>
-		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
-				onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
-		</div>
-		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
-				onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
-		</div>
-	</div>
-
-	<div id="myModal" class="modal">
-		<span class="close cursor" onclick="closeModal()">&times;</span>
-		<div class="modal-content">
-
-			<div class="mySlides">
-				<div class="numbertext">1 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
-			</div>
-
-			<div class="mySlides">
-				<div class="numbertext">2 / 8</div>
-				<img src="images/history-1.jpg" style="width: 100%">
-			</div>
-
-			<div class="mySlides">
-				<div class="numbertext">3 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
-			</div>
-
-			<div class="mySlides">
-				<div class="numbertext">4 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
-			</div>
-			<div class="mySlides">
-				<div class="numbertext">5 / 8 </div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
-			</div>
-			<div class="mySlides">
-				<div class="numbertext">6 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
-			</div>
-			<div class="mySlides">
-				<div class="numbertext">7 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
-			</div>
-			<div class="mySlides">
-				<div class="numbertext">8 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
-			</div>
-
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next"
-				onclick="plusSlides(1)">&#10095;</a>
-
-			<div class="caption-container">
-				<p id="caption"></p>
-			</div>
-
-
-			<div class="column">
-				<img class="demo cursor" src="images/gallery-1.jpg"
-					style="width: 100%" onclick="currentSlide(1)"
-					alt="Nature and sunrise">
-			</div>
-			<div class="column">
-				<img class="demo cursor" src="images/history-1.jpg" style="width: 100%"
-					onclick="currentSlide(2)" alt="Snow">
-			</div>
-			<div class="column">
-				<img class="demo cursor" src="img_mountains_wide.jpg"
-					style="width: 100%" onclick="currentSlide(3)"
-					alt="Mountains and fjords">
-			</div>
-			<div class="column">
-				<img class="demo cursor" src="img_lights_wide.jpg"
-					style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
-			</div>
-
-		</div>
-	</div>
+<table>
+  
+  <tr>
+    <td>Number of Trains per day</td>
+    <td>411</td>
+  </tr>
+  
+  <tr>
+    <td>Passenger Trains per day</td>
+    <td>386</td>
+  </tr>
+  
+  <tr>
+    <td>Goods Trains per day</td>
+    <td>25</td>
+  </tr>
+  
+  <tr>
+    <td>Passengers Carried per day</td>
+    <td>348,206</td>
+  </tr>
+  
+  <tr>
+    <td>Number of Stations</td>
+    <td>162</td>
+  </tr>
+  
+  <tr>
+    <td>Number of of Sub Stations</td>
+    <td>149</td>
+  </tr>
+  
+  <tr>
+    <td>Train Control Centers</td>
+    <td>03</td>
+  </tr>
+  
+</table></p>
+  </div>
 </div>
 
 
-	<script>
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
-}
 
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
-}
+<br><br><br><br>
 
-var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Transport Percentage</h2>
+
+<div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Bus', 4],
+  ['Train', 4],
+  ['Private Vachical', 1],
+  ['Taxi', 3],
+  ['By Foot', 2]
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':' Average Transport Types', 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
 }
 </script>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	<!-- Footer -->
 	<div class="footer">
@@ -572,6 +501,29 @@ function showSlides(n) {
 		<!-- end of container -->
 	</div>
 	<!-- end of footer -->
+	<!-- end of footer -->
+
+	<!-- Scripts -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery for Bootstrap's JavaScript plugins -->
+	<script src="js/popper.min.js"></script>
+	<!-- Popper tooltip library for Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Bootstrap framework -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- jQuery Easing for smooth scrolling between anchors -->
+	<script src="js/swiper.min.js"></script>
+	<!-- Swiper for image and text sliders -->
+	<script src="js/jquery.magnific-popup.js"></script>
+	<!-- Magnific Popup for lightboxes -->
+	<script src="js/morphext.min.js"></script>
+	<!-- Morphtext rotating text in the header -->
+	<script src="js/isotope.pkgd.min.js"></script>
+	<!-- Isotope for filter -->
+	<script src="js/validator.min.js"></script>
+	<!-- Validator.js - Bootstrap plugin that validates forms -->
+	<script src="js/scripts.js"></script>
+	<!-- Custom scripts -->
 
 	<script type="text/javascript">
 	function googleTranslateElementInit() {
@@ -582,8 +534,6 @@ function showSlides(n) {
 	</script>
 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-
 
 </body>
 </html>

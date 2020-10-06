@@ -102,7 +102,7 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 30%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
@@ -246,10 +246,8 @@ img.hover-shadow {
 								SERVICES</span></a>
 					</div></li>
 				<!-- end of dropdown menu -->
-				<li class="nav-item"><a class="nav-link page-scroll"
-					href="#callMe">GALLERY</a></li>
-				<li class="nav-item"><a class="nav-link page-scroll"
-					href="#projects">TOURISM</a></li>
+				<li class="nav-item"><a class="nav-link page-scroll active" href="#callMe">GALLERY</a></li>
+				<li class="nav-item"><a class="nav-link page-scroll" href="#projects">TOURISM</a></li>
 
 				<!-- Dropdown Menu -->
 				<li class="nav-item dropdown"><a
@@ -320,36 +318,40 @@ img.hover-shadow {
 <div class="container" style="padding-bottom:30px;">
 	<div class="row">
 		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
+			<img src="images/Gallery-Images/gallery-1.jpg" style="width: 100%"
 				onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
 		</div>
 		<div class="column" style="margin-bottom:20px;">
-			<img src="images/history-1.jpg" style="width: 100%"
+			<img src="images/Gallery-Images/gallery-2.jpg" style="width: 100%"
 				onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
 		</div>
 		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
+			<img src="images/Gallery-Images/gallery-3.jpg" style="width: 100%"
 				onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
 		</div>
 		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
+			<img src="images/Gallery-Images/gallery-4.jpg" style="width: 100%"
 				onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
 		</div>
 		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
+			<img src="images/Gallery-Images/gallery-5.jpg" style="width: 100%"
 				onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
 		</div>
 		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
+			<img src="images/Gallery-Images/gallery-6.jpg" style="width: 100%"
 				onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
 		</div>
 		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
+			<img src="images/Gallery-Images/gallery-7.jpg" style="width: 100%"
 				onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
 		</div>
 		<div class="column" style="margin-bottom:20px;">
-			<img src="images/gallery-1.jpg" style="width: 100%"
+			<img src="images/Gallery-Images/gallery-8.jpg" style="width: 100%"
 				onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+		</div>
+		<div class="column" style="margin-bottom:20px;">
+			<img src="images/Gallery-Images/gallery-9.jpg" style="width: 100%"
+				onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
 		</div>
 	</div>
 
@@ -358,43 +360,47 @@ img.hover-shadow {
 		<div class="modal-content">
 
 			<div class="mySlides">
-				<div class="numbertext">1 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
+				<div class="numbertext">1 / 9</div>
+				<img src="images/Gallery-Images/gallery-1.jpg" style="width: 100%">
 			</div>
 
 			<div class="mySlides">
-				<div class="numbertext">2 / 8</div>
-				<img src="images/history-1.jpg" style="width: 100%">
+				<div class="numbertext">2 / 9</div>
+				<img src="images/Gallery-Images/gallery-2.jpg" style="width: 100%">
 			</div>
 
 			<div class="mySlides">
-				<div class="numbertext">3 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
+				<div class="numbertext">3 / 9</div>
+				<img src="images/Gallery-Images/gallery-3.jpg" style="width: 100%">
 			</div>
 
 			<div class="mySlides">
-				<div class="numbertext">4 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
+				<div class="numbertext">4 / 9</div>
+				<img src="images/Gallery-Images/gallery-4.jpg" style="width: 100%">
 			</div>
 			<div class="mySlides">
-				<div class="numbertext">5 / 8 </div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
+				<div class="numbertext">5 / 9</div>
+				<img src="images/Gallery-Images/gallery-5.jpg" style="width: 100%">
 			</div>
 			<div class="mySlides">
-				<div class="numbertext">6 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
+				<div class="numbertext">6 / 9</div>
+				<img src="images/Gallery-Images/gallery-6.jpg" style="width: 100%">
 			</div>
 			<div class="mySlides">
-				<div class="numbertext">7 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
+				<div class="numbertext">7 / 9</div>
+				<img src="images/Gallery-Images/gallery-7.jpg" style="width: 100%">
 			</div>
 			<div class="mySlides">
-				<div class="numbertext">8 / 8</div>
-				<img src="images/gallery-1.jpg" style="width: 100%">
+				<div class="numbertext">8 / 9</div>
+				<img src="images/Gallery-Images/gallery-8.jpg" style="width: 100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">9 / 9</div>
+				<img src="images/Gallery-Images/gallery-9.jpg" style="width: 100%">
 			</div>
 
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next"
-				onclick="plusSlides(1)">&#10095;</a>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 			<div class="caption-container">
 				<p id="caption"></p>
@@ -402,22 +408,31 @@ img.hover-shadow {
 
 
 			<div class="column">
-				<img class="demo cursor" src="images/gallery-1.jpg"
-					style="width: 100%" onclick="currentSlide(1)"
-					alt="Nature and sunrise">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-1.jpg"style="width: 100%" onclick="currentSlide(1)"alt="Nature and sunrise">
 			</div>
 			<div class="column">
-				<img class="demo cursor" src="images/history-1.jpg" style="width: 100%"
-					onclick="currentSlide(2)" alt="Snow">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-2.jpg" style="width: 100%" onclick="currentSlide(2)" alt="Snow">
 			</div>
 			<div class="column">
-				<img class="demo cursor" src="img_mountains_wide.jpg"
-					style="width: 100%" onclick="currentSlide(3)"
-					alt="Mountains and fjords">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-3.jpg"style="width: 100%" onclick="currentSlide(3)"alt="Mountains and fjords">
 			</div>
 			<div class="column">
-				<img class="demo cursor" src="img_lights_wide.jpg"
-					style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-4.jpg"style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-5.jpg"style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-6.jpg"style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-7.jpg"style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-8.jpg"style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="images/Gallery-Images/gallery-9.jpg"style="width: 100%" onclick="currentSlide(4)" alt="Northern Lights">
 			</div>
 
 		</div>

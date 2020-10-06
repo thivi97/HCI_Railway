@@ -111,22 +111,18 @@
 					href="#projects">TOURISM</a></li>
 
 				<!-- Dropdown Menu -->
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle page-scroll" href="#about"
-					id="navbarDropdown" role="button" aria-haspopup="true"
-					aria-expanded="false">NOTICES</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">NOTICES</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#"><span class="item-text">TENDER
-								NOTICES</span></a>
+						<a class="dropdown-item" href="#"><span class="item-text">TENDER NOTICES</span></a>
 						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="#"><span class="item-text">DEPARTMENT
-								NOTICES</span></a>
+						<a class="dropdown-item" href="#"><span class="item-text">DEPARTMENT NOTICES</span></a>
 						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="#"><span class="item-text">OTHER
-								NOTICES</span></a>
+						<a class="dropdown-item" href="#"><span class="item-text">OTHER NOTICES</span></a>
 						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="Downlodas.jsp"><span class="item-text">DOWNLOADS</span></a>
-					</div></li>
+						<a class="dropdown-item active" href="Downlodas.jsp"><span class="item-text">DOWNLOADS</span></a>
+					</div>
+				</li>
 				<!-- end of dropdown menu -->
 				
 				<div id="google_translate_element"></div>
@@ -177,9 +173,39 @@
 
 <div class="container">
 
-<h2 class="title" style="text-align:center; margin-bottom:20px;">Recruitment</h2>
+	<h2 class="title" style="text-align:center; margin-bottom:20px;">Recruitment</h2>
+		<table class="table table-bordered" width="100%">
+		<col style="width:75%">
+		<col style="width:25%">
+			<tbody>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Compartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+				<tr>
+					<td style="padding:40px;">
+						<p>Application for Technicians (form 3.1(c))</p>
+					</td>
+					<td style="text-align:center; padding:30px;">
+						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 
-
+	<h2 class="title" style="text-align:center; margin-bottom:20px;">Tender Notice</h2>
 		<table class="table table-bordered" width="100%">
 		<col style="width:75%">
 		<col style="width:25%">
@@ -211,51 +237,7 @@
 			</tbody>
 		</table>
 
-		<br>
-
-
-<br><br><br>
-
-<h2 class="title" style="text-align:center; margin-bottom:20px;">Tender Notice</h2>
-
-
-		<table class="table table-bordered" width="100%">
-		<col style="width:75%">
-		<col style="width:25%">
-			<tbody>
-				<tr>
-					<td style="padding:40px;">
-						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
-					</td>
-					<td style="text-align:center; padding:30px;">
-						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="padding:40px;">
-						<p>Application for Reservation of Air Conditioned Train ("HITACHI"), Special Train and Cpmpartment of a Train (Form 2.2(a) and Form 2.2(b))</p>
-					</td>
-					<td style="text-align:center; padding:30px;">
-						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
-					</td>
-				</tr>
-				<tr>
-					<td style="padding:40px;">
-						<p>Application for Technicians (form 3.1(c))</p>
-					</td>
-					<td style="text-align:center; padding:30px;">
-						<a href="files/2.2.pdf" download><img src="images/pdf.png" height="75px" width="75px" alt="Application for Reservation of Air Conditioned Train" title="Application for Reservation of Air Conditioned Train" /><br>Download</a>
-					</td>
-				</tr>
-			</tbody>
-		</table>
-
-<br><br><br>
-
-
-<h2 class="title" style="text-align:center; margin-bottom:20px;">Train Reservation</h2>
-
-
+	<h2 class="title" style="text-align:center; margin-bottom:20px;">Train Reservation</h2>
 		<table class="table table-bordered" width="100%">
 		<col style="width:75%">
 		<col style="width:25%">
@@ -280,12 +262,7 @@
 			</tbody>
 		</table>
 
-
-<br><br><br>
-
-<h2 class="title" style="text-align:center; margin-bottom:20px;">Application</h2>
-
-
+	<h2 class="title" style="text-align:center; margin-bottom:20px;">Application</h2>
 		<table class="table table-bordered" width="100%">
 		<col style="width:75%">
 		<col style="width:25%">
@@ -316,11 +293,7 @@
 				</tr>
 			</tbody>
 		</table>
-
-
 </div>
-
-<br><br>
 
 
 

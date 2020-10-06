@@ -49,7 +49,7 @@
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 75%;
+  width: 100%;
 }
 
 td, th {
@@ -122,7 +122,7 @@ tr:nth-child(even) {
 						<a class="dropdown-item" href="#"><span class="item-text">OUR
 								NETWORK</span></a>
 						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="SLRatGlance.jsp"><span class="item-text">SLR
+						<a class="dropdown-item active" href="SLRatGlance.jsp"><span class="item-text">SLR
 								AT A GLANCE</span></a>
 					</div></li>
 				<!-- end of dropdown menu -->
@@ -220,190 +220,103 @@ tr:nth-child(even) {
 <div class="container">
 
 <div class="row">
-  <div class="column" style="background-color:white;">
+  <div class="col-lg-6" style="background-color:white;">
     
-    <p><h2>Tracks</h2>
+   <h2 style="text-align:center;">Tracks</h2>
 
-<table>
-  
-  <tr>
-    <td>Route Length</td>
-    <td>1340.486 km</td>
-  </tr>
-  
-  <tr>
-    <td>Four Tracks</td>
-    <td>1.895 km</td>
-  </tr>
-  
-  <tr>
-    <td>Double Track</td>
-    <td>140.693 km</td>
-  </tr>
-  
-  <tr>
-    <td>Single Track</td>
-    <td>1186.141 km</td>
-  </tr>
-  
-  <tr>
-    <td>Number of Stations</td>
-    <td>162</td>
-  </tr>
-  
-  <tr>
-    <td>Number of of Sub Stations</td>
-    <td>149</td>
-  </tr>
-  
-  <tr>
-    <td>Train Control Centers</td>
-    <td>03</td>
-  </tr>
-  
-</table></p>
+	<table>
+	  
+	  <tr>
+	    <td>Route Length</td>
+	    <td>1340.486 km</td>
+	  </tr>
+	  
+	  <tr>
+	    <td>Four Tracks</td>
+	    <td>1.895 km</td>
+	  </tr>
+	  
+	  <tr>
+	    <td>Double Track</td>
+	    <td>140.693 km</td>
+	  </tr>
+	  
+	  <tr>
+	    <td>Single Track</td>
+	    <td>1186.141 km</td>
+	  </tr>
+	  
+	  <tr>
+	    <td>Number of Stations</td>
+	    <td>162</td>
+	  </tr>
+	  
+	  <tr>
+	    <td>Number of of Sub Stations</td>
+	    <td>149</td>
+	  </tr>
+	  
+	  <tr>
+	    <td>Train Control Centers</td>
+	    <td>03</td>
+	  </tr>
+	  
+	</table>
+	
   </div>
   
   
-  <div class="column" style="background-color:white;">
+  <div class="col-lg-6" style="background-color:white;">
     
-    <p><h2>Operation</h2>
+	  <h2 style="text-align:center;">Operation</h2>
+	
+		<table>
+		  
+		  <tr>
+		    <td>Number of Trains per day</td>
+		    <td>411</td>
+		  </tr>
+		  
+		  <tr>
+		    <td>Passenger Trains per day</td>
+		    <td>386</td>
+		  </tr>
+		  
+		  <tr>
+		    <td>Goods Trains per day</td>
+		    <td>25</td>
+		  </tr>
+		  
+		  <tr>
+		    <td>Passengers Carried per day</td>
+		    <td>348,206</td>
+		  </tr>
+		  
+		  <tr>
+		    <td>Number of Stations</td>
+		    <td>162</td>
+		  </tr>
+		  
+		  <tr>
+		    <td>Number of of Sub Stations</td>
+		    <td>149</td>
+		  </tr>
+		  
+		  <tr>
+		    <td>Train Control Centers</td>
+		    <td>03</td>
+		  </tr>
+		  
+		</table>
+	</div>
 
-<table>
-  
-  <tr>
-    <td>Number of Trains per day</td>
-    <td>411</td>
-  </tr>
-  
-  <tr>
-    <td>Passenger Trains per day</td>
-    <td>386</td>
-  </tr>
-  
-  <tr>
-    <td>Goods Trains per day</td>
-    <td>25</td>
-  </tr>
-  
-  <tr>
-    <td>Passengers Carried per day</td>
-    <td>348,206</td>
-  </tr>
-  
-  <tr>
-    <td>Number of Stations</td>
-    <td>162</td>
-  </tr>
-  
-  <tr>
-    <td>Number of of Sub Stations</td>
-    <td>149</td>
-  </tr>
-  
-  <tr>
-    <td>Train Control Centers</td>
-    <td>03</td>
-  </tr>
-  
-</table></p>
-  </div>
+	
+	<div class="col-lg-12" id="chartContainer" style="height: 400px; width: 100%; margin-top:30px; margin-bottom:30px;">
+	</div>
+	
 </div>
 
-
-
-<br><br><br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<h2>Transport Percentage</h2>
-
-<div id="piechart"></div>
-
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-// Load google charts
-google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawChart);
-
-// Draw the chart and set the chart values
-function drawChart() {
-  var data = google.visualization.arrayToDataTable([
-  ['Task', 'Hours per Day'],
-  ['Bus', 4],
-  ['Train', 4],
-  ['Private Vachical', 1],
-  ['Taxi', 3],
-  ['By Foot', 2]
-]);
-
-  // Optional; add a title and set the width and height of the chart
-  var options = {'title':' Average Transport Types', 'width':550, 'height':400};
-
-  // Display the chart inside the <div> element with id="piechart"
-  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-  chart.draw(data, options);
-}
-</script>
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	<!-- Footer -->
@@ -534,6 +447,94 @@ function drawChart() {
 	</script>
 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title:{
+		text: "Number of Passengers vs Sold out Tickets in 2019"
+	},	
+	axisY: {
+		title: "Number of Passengers",
+		titleFontColor: "#4F81BC",
+		lineColor: "#4F81BC",
+		labelFontColor: "#4F81BC",
+		tickColor: "#4F81BC"
+	},
+	axisY2: {
+		title: "Sold out Tickets/Month",
+		titleFontColor: "#C0504E",
+		lineColor: "#C0504E",
+		labelFontColor: "#C0504E",
+		tickColor: "#C0504E"
+	},	
+	toolTip: {
+		shared: true
+	},
+	legend: {
+		cursor:"pointer",
+		itemclick: toggleDataSeries
+	},
+	data: [{
+		type: "column",
+		name: "Number of Passengers",
+		legendText: "Number of Passengers",
+		showInLegend: true, 
+		dataPoints:[
+			{ label: "Jan", y: 123 },
+			{ label: "Feb", y: 4889 },
+			{ label: "March", y: 157 },
+			{ label: "April", y: 148 },
+			{ label: "May", y: 101 },
+			{ label: "June", y: 978 },
+			{ label: "July", y: 2661 },
+			{ label: "Aug", y: 3025 },
+			{ label: "Sep", y: 1570 },
+			{ label: "Oct", y: 4877 },
+			{ label: "Nov", y: 1015 },
+			{ label: "Dec", y: 978 }
+		]
+	},
+	{
+		type: "column",	
+		name: "Tickets per Month",
+		legendText: "Tickets per Month",
+		axisYType: "secondary",
+		showInLegend: true,
+		dataPoints:[
+			{ label: "Jan", y: 67 },
+			{ label: "Feb", y: 3025 },
+			{ label: "March", y: 1520 },
+			{ label: "April", y: 487 },
+			{ label: "May", y: 1015 },
+			{ label: "June", y: 978 },
+			{ label: "July", y: 2621 },
+			{ label: "Aug", y: 305 },
+			{ label: "Sep", y: 1570 },
+			{ label: "Oct", y: 1487 },
+			{ label: "Nov", y: 1150 },
+			{ label: "Dec", y: 978 }
+		]
+	}]
+});
+chart.render();
+
+function toggleDataSeries(e) {
+	if (typeof(e.dataSeries.visible) === "undefined" || e.dataSeries.visible) {
+		e.dataSeries.visible = false;
+	}
+	else {
+		e.dataSeries.visible = true;
+	}
+	chart.render();
+}
+
+}
+</script>
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
 </body>
 </html>

@@ -20,7 +20,7 @@
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Aboutus - Sri Lanka Railway</title>
+    <title>Passenger Services - Sri Lanka Railway</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -32,29 +32,26 @@
 	<link href="css/styles.css" rel="stylesheet">
 	<!-- Style Swicther -->
 	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <style>
+    #myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+    </style>
     
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 <!--  
-	<!-- Style switcher start -->
-	<div class="style-switch-wrapper">
-		<div class="style-switch-button">
-			<i class="fa fa-sliders"></i>
-		</div>
-		<h3>Style Options</h3>
-		<button id="preset1" class="btn btn-sm btn-primary"></button>
-		<button id="preset2" class="btn btn-sm btn-primary"></button>
-		<button id="preset3" class="btn btn-sm btn-primary"></button>
-		<button id="preset4" class="btn btn-sm btn-primary"></button>
-		<button id="preset5" class="btn btn-sm btn-primary"></button>
-		<button id="preset6" class="btn btn-sm btn-primary"></button>
-		<br/><br/>
-		<a class="btn btn-sm btn-primary close-styler float-right">Close X</a>
-	</div>
-	<!-- Style switcher end -->
+	
 	
     
     <!-- Preloader -->
@@ -89,7 +86,7 @@
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="sr-only">(current)</span></a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Overview.jsp"><span class="item-text">OVERVIEW</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -105,7 +102,7 @@
                 <!-- end of dropdown menu -->
                <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES</a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES<span class="sr-only">(current)</span></a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">TRAIN SCHEDULE</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -158,13 +155,16 @@
     <!-- end of header -->
 	
 
+	<br>
+	<br>   
+	
 	<!-- Breadcrumbs -->
 	<div class="ex-basic-1">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcrumbs">
-						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>About Us</span>
+						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>Passenger Services</span>
 					</div>
 					<!-- end of breadcrumbs -->
 				</div>
@@ -176,90 +176,259 @@
 	</div>
 	<!-- end of ex-basic-1 -->
 	<!-- end of breadcrumbs -->
-	
-	
-      <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-      <div class="container">
-
-        <header class="section-header">
-          <h3 align="center">About Us</h3>
-          
-        </header>
-
-<br><br>
-        <div class="row about-container">
-
-          <div class="col-lg-6 content order-lg-1 order-2">
-            <p>
-              In this year, SLR could attract more passengers by widening the train service introducing following new train services, 
-            </p>
-<br>
-            <div class="icon-box wow fadeInUp">
-              <div class="icon"></div>
-              <h4 class="title">Commencement of new weekend train service  from Kandy  to Ella</h4>
-             
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
-              <div class="icon"></div>
-              <h4 class="title">Daily	evening	train	service	to	Veyangoda	extended	up	to	Meerigama</h4>
-              
-            </div>
-
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
-              <div class="icon"></div>
-              <h4 class="title">Daily	morning		train	service	to	Moratuwa	extended	up	to	Panadura</h4>
-             
-            </div>
-
-          </div>
-
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="images/aboutus.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
-
-        <div class="row about-extra">
-          <div class="col-lg-6 wow fadeInUp">
-            <img src="images/aboutus2.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>Procurement  of new Rolling Stock </h4>
-            <p>
-              Tender called & commenced evaluation process for Procurement 10Nos. of  Locomotives, 6  Nos.of Power sets, 160 Nos. of passenger carriages, 30Nos. of Tank wagons & 20Nos. of container wagons under the India Line of Credit in 2016 and First	DMU	and	Power	Set	received	in	December	2018. 
-            </p>
-            <p>
-             Commenced the tender evaluation procedure for procurement of 9Nos. of Locomotives and  12 Nos. of Power sets for the Upcountry Service. 
-            </p>
-          </div>
-        </div>
-
-        <div class="row about-extra">
-          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
-            <img src="images/aboutus1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4>Rehabilitation of 200Nos. of carriages</h4>
-            <p>
-             This project is implemented under an agreement signed with an external party. This project’s objective is to increase the No. of passenger carriages for widening the service and the enhancement of passenger facilities. So far, 68 Nos ,of carriages  were handed over to rehabilitate and 52 Nos. were completed and added to the service. 
-            </p>
-            <h4>Colombo Suburban railway project under the financial assistance with ADB</h4>
-            <p>
-            Under this project, it is expected to develop infrastructure facilities in suburban train service in all line such as Main Line, Kelanivelly Line, coastal line and Puttalam Line with	purpose	of	enhance	the	efficiency	and	attraction	of	train	service. 
-            </p>
-          </div>
-          
-        </div>
-
-      </div>
-    </section><!-- #about -->
-
-	 
-    <!-- Footer -->
+    
+    
+    <div class="container my-3">
+	<h1 class="text-center display-3">Sri Lanka Railway Information</h1>
+	<h4 class="text-muted text-center">Realtime, Simple & Fast</h4>
+	<div class="row my-4">
+		<div class="col-lg-4 col-sm-12 p-3">
+			<div class="card text-center p-2" style="width:auto; overflow:hidden;">
+		  		<img id= "image1" src="./images/1.jpg" class=" image card-img-top rounded mx-auto d-block img-fluid" alt="train" style="width: auto; height: 250px;">
+			  	<div class="card-body">
+				    <h5 class="card-title">Train Availability</h5>
+				    <p class="card-text">Find out train availability</p>
+				    <a href="#live" class="btn btn-primary">Go</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-12 p-3">
+			<div class="card text-center p-2" style="width:auto; overflow:hidden;">
+		  		<img src="./images/2.jpg" class=" image card-img-top rounded mx-auto d-block img-fluid" alt="train" style="width: auto; height: 250px;">
+			  	<div class="card-body">
+				    <h5 class="card-title">Train Fare</h5>
+				    <p class="card-text">Check Train Fares in just one click!</p>
+				    <a href="#fare" class="btn btn-primary">Go</a>
+				</div>
+			</div>
+			
+		</div>
+		<div class="col-lg-4 col-sm-12 p-3">
+			<div class="card text-center p-2" style="width:auto; overflow:hidden;">
+		  		<img src="./images/3.jpg" class=" image card-img-top rounded mx-auto d-block img-fluid" alt="train" style="width: 330px; height: 250px;">
+			  	<div class="card-body">
+				    <h5 class="card-title">Train Schedule</h5>
+				    <p class="card-text">Few any train schedule</p>
+				    <a href="Schedule.jsp" class="btn btn-primary">Go</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    
+    <!-- Intro -->
+    <div id="live" class="basic-1">
+        <div class="container">
+    
+               
+                    <div class="text-container">
+                        <div class="section-title">TRAIN AVAILABILITY</div>
+                        <br>
+                        <h2>Find the train available class</h2>
+                       
+                       <table id="table_format" class="table table-bordered"><tbody>
+                       <tr>
+                       <th>Train Type</th>
+						<th>Journey</th>
+						<th>Available Class</th>
+					
+						</tr><tr>
+						<td>Intercity-Daily</td>
+						<td>Colombo-Jaffna</td>
+						<td>1st,2nd & 3rd</td>
+			
+						</tr><tr>
+						<td>Intercity-Daily</td>
+						<td>Colombo-Jaffna</td>
+						<td>2nd</td>
+					
+						</tr>
+						<tr>
+						<td>Intercity - Daily</td>
+						<td>Colombo-Kandy</td>
+						<td>1st,2nd & 3rd</td>
+				
+						</tr><tr>
+						<td>Intercity-Daily</td>
+						<td>Colombo-Baticalo</td>
+						<td>1st,2nd & 3rd</td>
+						
+						</tr>
+						<tr>
+						<td>Intercity-Daily</td>
+						<td>Colombo-Kandy</td>
+						<td>1st,2nd & 3rd</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Intercity-Weekends</td>
+						<td>Colombo-Nanuoya</td>
+						<td>1st,2nd & 3rd</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Express-Daytime</td>
+						<td>Colombo-Badulla</td>
+						<td>AFC,1st,2nd & 3rd</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Express-Daytime</td>
+						<td>Colombo-Badulla</td>
+						<td>AFC,1st,2nd & 3rd</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Express-Night</td>
+						<td>Colombo-Badulla</td>
+						<td>1st,2nd & 3rd Sleeperates</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Semi Express-Night</td>
+						<td>Colombo-Baticalo</td>
+						<td>1st,2nd & 3rd Sleeperates</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Semi Express-Night</td>
+						<td>Colombo-Trincomalee</td>
+						<td>1st,2nd & 3rd Sleeperates</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Semi Express-Night</td>
+						<td>Colombo-Vavuniya</td>
+						<td>1st,2nd & 3rd Sleeperates</td>
+					
+						</tr></tbody></table>
+                       
+                          </div> <!-- end of text-container -->
+               
+               
+           
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of intro -->
+    
+    
+    
+    
+    <!-- Intro -->
+    <div id="fare" class="basic-1">
+        <div class="container">
+    
+               
+                    <div class="text-container">
+                        <div class="section-title">TRAIN FARE</div>
+                        <br>
+                        <h2>Find the train amount</h2>
+                                               
+                       <table id="table_format1" class="table table-bordered"><tbody>
+                       <tr>
+                       <th>Train Type</th>
+						<th>Journey</th>
+						<th>Fare</th>
+					
+						</tr><tr>
+						<td>Intercity-Daily</td>
+						<td>Colombo-Jaffna</td>
+						<td>Rs300</td>
+			
+						</tr><tr>
+						<td>Intercity-Daily</td>
+						<td>Colombo-Trincomalee</td>
+						<td>Rs200</td>
+					
+						</tr>
+						<tr>
+						<td>Intercity - Daily</td>
+						<td>Colombo-Kandy</td>
+						<td>Rs400</td>
+				
+						</tr><tr>
+						<td>Intercity-Daily</td>
+						<td>Colombo-Baticalo</td>
+						<td>Rs250</td>
+						
+						</tr>
+						<tr>
+						<td>Intercity-Daily</td>
+						<td>Colombo-Vavuniya</td>
+						<td>Rs200</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Intercity-Weekends</td>
+						<td>Colombo-Nanuoya</td>
+						<td>Rs260</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Express-Daytime</td>
+						<td>Colombo-Badulla</td>
+						<td>Rs280</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Express-Daytime</td>
+						<td>Colombo-Ella</td>
+						<td>Rs1000</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Express-Night</td>
+						<td>Colombo-Galle</td>
+						<td>Rs210</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Semi Express-Night</td>
+						<td>Colombo-Pollanaruva</td>
+						<td>Rs320</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Semi Express-Night</td>
+						<td>Colombo-Annuradhapura</td>
+						<td>Rs440</td>
+				
+						</tr>
+						
+						<tr>
+						<td>Semi Express-Night</td>
+						<td>Colombo-Puthalam</td>
+						<td>Rs240</td>
+					
+						</tr></tbody></table>
+                       
+                          </div> <!-- end of text-container -->
+               
+               
+           
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of intro -->
+    
+    
+   
+    
+    
+    
+      <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -383,7 +552,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Team Pirates</a></p>
+                    <p class="p-small">Copyright � 2020 <a href="https://inovatik.com">Team Pirates</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
@@ -395,6 +564,33 @@
 <script src="js/lisenme.js"></script>
 <script>
 jQuery('#table_format').ddTableFilter();
+</script>
+<script>
+jQuery('#table_format1').ddTableFilter();
+</script>
+<script>
+jQuery('#table_format2').ddTableFilter();
+</script>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("table_format2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
 </script>
     	
     <!-- Scripts -->

@@ -20,7 +20,7 @@
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Home - Sri Lanka Railway</title>
+    <title>Aboutus - Sri Lanka Railway</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -34,28 +34,12 @@
 	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
-    
-   
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
     
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 <!--  
-	<!-- Style switcher start -->
-	<div class="style-switch-wrapper">
-		<div class="style-switch-button">
-			<i class="fa fa-sliders"></i>
-		</div>
-		<h3>Style Options</h3>
-		<button id="preset1" class="btn btn-sm btn-primary"></button>
-		<button id="preset2" class="btn btn-sm btn-primary"></button>
-		<button id="preset3" class="btn btn-sm btn-primary"></button>
-		<button id="preset4" class="btn btn-sm btn-primary"></button>
-		<button id="preset5" class="btn btn-sm btn-primary"></button>
-		<button id="preset6" class="btn btn-sm btn-primary"></button>
-		<br/><br/>
-		<a class="btn btn-sm btn-primary close-styler float-right">Close X</a>
-	</div>
-	<!-- Style switcher end -->
+	
 	
     
     <!-- Preloader -->
@@ -86,11 +70,11 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll" href="#header">HOME</a>
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="sr-only">(current)</span></a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="Overview.jsp"><span class="item-text">OVERVIEW</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -116,7 +100,7 @@
                          <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="Reservation.jsp"><span class="item-text">RESERVATIONS</span></a>
                          <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="#"><span class="item-text">OTHER SERVICES</span></a>
+                        <a class="dropdown-item" href="OtherServices.jsp"><span class="item-text">OTHER SERVICES</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
@@ -129,7 +113,7 @@
 
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">NOTICES</a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">NOTICES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">TENDER NOTICES</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -140,8 +124,6 @@
                         <a class="dropdown-item" href="Downloads.jsp"><span class="item-text">DOWNLOADS</span></a>
                     </div>
                 </li>
-                
-               
                 <!-- end of dropdown menu -->
                 <div id="google_translate_element"></div>
             </ul>
@@ -151,132 +133,117 @@
     <!-- end of navbar -->
 
 
-   <!-- Header -->
-    <header id="header" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-container">
-                            <h1>SRI LANKA RAILWAY <span id="js-rotating">HISTORY, SERVICES, NOTICES</span></h1>
-                            <p class="p-heading p-large">Sri Lanka Railways is a government department functioning under the Ministry of Transport. It is a major transport service provider. </p>
-                            
-                        </div>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
+    
+    <!-- Header -->
+    <header id="header" class="ex-header" style="padding-top:100px !important; padding-bottom:100px !important; background-image: url('images/history-banner.webp')">
+        <div class="header-content1">
+            
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
     <!-- end of header -->
 	
 
-   <br>
+	<!-- Breadcrumbs -->
+	<div class="ex-basic-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="breadcrumbs">
+						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>About Us</span>
+					</div>
+					<!-- end of breadcrumbs -->
+				</div>
+				<!-- end of col -->
+			</div>
+			<!-- end of row -->
+		</div>
+		<!-- end of container -->
+	</div>
+	<!-- end of ex-basic-1 -->
+	<!-- end of breadcrumbs -->
+	
+	
+      <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
 
-    
+        <header class="section-header">
+          <h3 align="center">About Us</h3>
+          
+        </header>
 
-    <!-- Details 1 -->
-	<div id="details" class="accordion">
-		<div class="area-1">
-		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
-            
-            <!-- Accordion -->
-            <div class="accordion-container" id="accordionOne">
-                <h2>Sri Devi Intercity Express Train</h2>
-                <div class="item">
-                    <div id="headingOne">
-                        <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button">
-                            <span class="circle-numbering">1</span><span class="accordion-title">When the service starts</span>
-                        </span>
-                    </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionOne">
-                        <div class="accordion-body">
-                           Sri Devie Intercity Express train runs daily between Colombo Fort to Kankesanthurai railway station and its service from 5th September, 2019.
-                        </div>
-                    </div>
-                </div> <!-- end of item -->
-            
-                <div class="item">
-                    <div id="headingTwo">
-                        <span class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" role="button">
-                            <span class="circle-numbering">2</span><span class="accordion-title">Train schedule from Colombo</span>
-                        </span>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionOne">
-                        <div class="accordion-body">
-                            This Intercity train scheduled to begin its journey at 15:55 in the evening every day from Colombo Fort railway station and scheduled to reach the destination at 22:21 at the same day.
-                        </div>
-                    </div>
-                </div> <!-- end of item -->
-            
-                <div class="item">
-                    <div id="headingThree">
-                        <span class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="button">
-                            <span class="circle-numbering">3</span><span class="accordion-title">Train schedule from Kankesanthurai</span>
-                        </span>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
-                        <div class="accordion-body">
-                            Its start journey on every morning at 03:45 from Kankesanthurai railway station and the express train will reach to Colombo Fort at 10:24 (in 6 hours and 39 min).
-                        </div>
-                    </div>
-                </div> <!-- end of item -->
-            </div> <!-- end of accordion-container -->
-            <!-- end of accordion -->
+<br><br>
+        <div class="row about-container">
 
-		</div> <!-- end of area-2 -->
-    </div> <!-- end of accordion -->
-    <!-- end of details 1 -->
-
-
-    <!-- Details 2 -->
-	<div class="tabs">
-        <div class="area-1">
-            <div class="tabs-container">
-                
-              
-                
-                <!-- Tabs Content -->
-                <div class="tab-content" id="ariaTabsContent">
-
-                    <!-- Tab -->
-                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
-                        <h4>New Containers Cars and Oil Wagons for Sri Lanka Railways</h4>
-                        <p>Sri Lanka Railways received 25 tank wagons and 10 Container Cars from India. Our <a class="green page-scroll" href="#">Services</a> Sri Lanka Railways is planning to recommence rail transport of coal for Nuraichcholai Power Plant and Raw materials for Prima.</p>
-                        
-                        <!-- Progress Bars -->
-                        <div class="progress-container">
-                            <div class="title">Tank Wagons 71%</div>
-                            <div class="progress">
-                                <div class="progress-bar first" role="progressbar" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <div class="title">Container Cars 29%</div>
-                            <div class="progress">
-                                <div class="progress-bar second" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            
-                        </div> <!-- end of progress-container -->
-                        <!-- end of progress bars -->
-                        
-                    </div> <!-- end of tab-pane --> 
-                    <!-- end of tab -->
-
-                    
-
-                    
-
-                </div> <!-- end of tab-content -->
-                <!-- end of tabs content -->
-
-            </div> <!-- end of tabs-container -->
-        </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2"></div> <!-- end of area-2 -->
-    </div> <!-- end of tabs -->
-    <!-- end of details 2 -->
-
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              In this year, SLR could attract more passengers by widening the train service introducing following new train services, 
+            </p>
 <br>
-   
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"></div>
+              <h4 class="title">Commencement of new weekend train service  from Kandy  to Ella</h4>
+             
+            </div>
 
-    
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"></div>
+              <h4 class="title">Daily	evening	train	service	to	Veyangoda	extended	up	to	Meerigama</h4>
+              
+            </div>
 
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"></div>
+              <h4 class="title">Daily	morning		train	service	to	Moratuwa	extended	up	to	Panadura</h4>
+             
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="images/aboutus.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="images/aboutus2.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Procurement  of new Rolling Stock </h4>
+            <p>
+              Tender called & commenced evaluation process for Procurement 10Nos. of  Locomotives, 6  Nos.of Power sets, 160 Nos. of passenger carriages, 30Nos. of Tank wagons & 20Nos. of container wagons under the India Line of Credit in 2016 and First	DMU	and	Power	Set	received	in	December	2018. 
+            </p>
+            <p>
+             Commenced the tender evaluation procedure for procurement of 9Nos. of Locomotives and  12 Nos. of Power sets for the Upcountry Service. 
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="images/aboutus1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>Rehabilitation of 200Nos. of carriages</h4>
+            <p>
+             This project is implemented under an agreement signed with an external party. This project’s objective is to increase the No. of passenger carriages for widening the service and the enhancement of passenger facilities. So far, 68 Nos ,of carriages  were handed over to rehabilitate and 52 Nos. were completed and added to the service. 
+            </p>
+            <h4>Colombo Suburban railway project under the financial assistance with ADB</h4>
+            <p>
+            Under this project, it is expected to develop infrastructure facilities in suburban train service in all line such as Main Line, Kelanivelly Line, coastal line and Puttalam Line with	purpose	of	enhance	the	efficiency	and	attraction	of	train	service. 
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+	 
     <!-- Footer -->
     <div class="footer">
         <div class="container">
@@ -408,6 +375,12 @@
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     
+    
+    <script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/lisenme.js"></script>
+<script>
+jQuery('#table_format').ddTableFilter();
+</script>
     	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
@@ -420,7 +393,7 @@
     <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
-	<script type="text/javascript" src="js/style-switcher.js"></script>
+    <script type="text/javascript" src="js/style-switcher.js"></script>
 
 	<script type="text/javascript">
 	function googleTranslateElementInit() {

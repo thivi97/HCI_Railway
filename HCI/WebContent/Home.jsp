@@ -20,7 +20,7 @@
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Our Network - Sri Lanka Railway</title>
+    <title>Home - Sri Lanka Railway</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -35,82 +35,12 @@
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
     
-   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
    
-  
-   
-     <style>
-     
-     .show{display:block;}
-.hide{display:none;}
-        /* padding-bottom and top for image */
-    .mfp-no-margins img.mfp-img {
-      padding: 0;
-    }
-    /* position of shadow behind the image */
-    .mfp-no-margins .mfp-figure:after {
-      top: 0;
-      bottom: 0;
-    }
-    /* padding for main container */
-    .mfp-no-margins .mfp-container {
-      padding: 0;
-    }
-
-
-    /* 
-
-    for zoom animation 
-    uncomment this part if you haven't added this code anywhere else
-
-    */
-    /*
-    
-    .mfp-with-zoom .mfp-container,
-    .mfp-with-zoom.mfp-bg {
-      opacity: 0;
-      -webkit-backface-visibility: hidden;
-      -webkit-transition: all 0.3s ease-out; 
-      -moz-transition: all 0.3s ease-out; 
-      -o-transition: all 0.3s ease-out; 
-      transition: all 0.3s ease-out;
-    }
-    
-    .mfp-with-zoom.mfp-ready .mfp-container {
-        opacity: 1;
-    }
-    .mfp-with-zoom.mfp-ready.mfp-bg {
-        opacity: 0.8;
-    }
-    
-    .mfp-with-zoom.mfp-removing .mfp-container, 
-    .mfp-with-zoom.mfp-removing.mfp-bg {
-      opacity: 0;
-    }
-    */
-    </style>
- 
-    
     
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 <!--  
-	<!-- Style switcher start -->
-	<div class="style-switch-wrapper">
-		<div class="style-switch-button">
-			<i class="fa fa-sliders"></i>
-		</div>
-		<h3>Style Options</h3>
-		<button id="preset1" class="btn btn-sm btn-primary"></button>
-		<button id="preset2" class="btn btn-sm btn-primary"></button>
-		<button id="preset3" class="btn btn-sm btn-primary"></button>
-		<button id="preset4" class="btn btn-sm btn-primary"></button>
-		<button id="preset5" class="btn btn-sm btn-primary"></button>
-		<button id="preset6" class="btn btn-sm btn-primary"></button>
-		<br/><br/>
-		<a class="btn btn-sm btn-primary close-styler float-right">Close X</a>
-	</div>
-	<!-- Style switcher end -->
+	
 	
     
     <!-- Preloader -->
@@ -141,7 +71,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME</a>
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
@@ -161,7 +91,7 @@
                 <!-- end of dropdown menu -->
                <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES<span class="sr-only">(current)</span></a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">TRAIN SCHEDULE</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -171,7 +101,7 @@
                          <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="Reservation.jsp"><span class="item-text">RESERVATIONS</span></a>
                          <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="OtherServices.jsp"><span class="item-text">OTHER SERVICES</span></a>
+                        <a class="dropdown-item" href="#"><span class="item-text">OTHER SERVICES</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->
@@ -184,7 +114,7 @@
 
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">NOTICES</a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">NOTICES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">TENDER NOTICES</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -195,6 +125,8 @@
                         <a class="dropdown-item" href="Downloads.jsp"><span class="item-text">DOWNLOADS</span></a>
                     </div>
                 </li>
+                
+               
                 <!-- end of dropdown menu -->
                 <div id="google_translate_element"></div>
             </ul>
@@ -204,227 +136,133 @@
     <!-- end of navbar -->
 
 
-
-    
-    <!-- Header -->
-    <header id="header" class="ex-header" style="padding-top:100px !important; padding-bottom:100px !important; background-image: url('images/history-banner.webp')">
-        <div class="header-content1">
-            
+   <!-- Header -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-container">
+                            <h1>SRI LANKA RAILWAY <span id="js-rotating">HISTORY, SERVICES, NOTICES</span></h1>
+                            <p class="p-heading p-large">Sri Lanka Railways is a government department functioning under the Ministry of Transport. It is a major transport service provider. </p>
+                            
+                        </div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
         </div> <!-- end of header-content -->
     </header> <!-- end of header -->
     <!-- end of header -->
 	
 
-	<!-- Breadcrumbs -->
-	<div class="ex-basic-1">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="breadcrumbs">
-						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>Our Network</span>
-					</div>
-					<!-- end of breadcrumbs -->
-				</div>
-				<!-- end of col -->
-			</div>
-			<!-- end of row -->
-		</div>
-		<!-- end of container -->
-	</div>
-	<!-- end of ex-basic-1 -->
-	<!-- end of breadcrumbs -->
+   <br>
+
+    
+
+    <!-- Details 1 -->
+	<div id="details" class="accordion">
+		<div class="area-1">
+		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
+            
+            <!-- Accordion -->
+            <div class="accordion-container" id="accordionOne">
+                <h2>Sri Devi Intercity Express Train</h2>
+                <div class="item">
+                    <div id="headingOne">
+                        <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button">
+                            <span class="circle-numbering">1</span><span class="accordion-title">When the service starts</span>
+                        </span>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionOne">
+                        <div class="accordion-body">
+                           Sri Devie Intercity Express train runs daily between Colombo Fort to Kankesanthurai railway station and its service from 5th September, 2019.
+                        </div>
+                    </div>
+                </div> <!-- end of item -->
+            
+                <div class="item">
+                    <div id="headingTwo">
+                        <span class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" role="button">
+                            <span class="circle-numbering">2</span><span class="accordion-title">Train schedule from Colombo</span>
+                        </span>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionOne">
+                        <div class="accordion-body">
+                            This Intercity train scheduled to begin its journey at 15:55 in the evening every day from Colombo Fort railway station and scheduled to reach the destination at 22:21 at the same day.
+                        </div>
+                    </div>
+                </div> <!-- end of item -->
+            
+                <div class="item">
+                    <div id="headingThree">
+                        <span class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="button">
+                            <span class="circle-numbering">3</span><span class="accordion-title">Train schedule from Kankesanthurai</span>
+                        </span>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
+                        <div class="accordion-body">
+                            Its start journey on every morning at 03:45 from Kankesanthurai railway station and the express train will reach to Colombo Fort at 10:24 (in 6 hours and 39 min).
+                        </div>
+                    </div>
+                </div> <!-- end of item -->
+            </div> <!-- end of accordion-container -->
+            <!-- end of accordion -->
+
+		</div> <!-- end of area-2 -->
+    </div> <!-- end of accordion -->
+    <!-- end of details 1 -->
 
 
+    <!-- Details 2 -->
+	<div class="tabs">
+        <div class="area-1">
+            <div class="tabs-container">
+                
+              
+                
+                <!-- Tabs Content -->
+                <div class="tab-content" id="ariaTabsContent">
 
-					<table class="styled-table">
-						<thead>
-							<tr class="table100-head">
-								<th class="column1">No</th>
-								<th class="column2">Line</th>
-								<th class="column3">Distance KM</th>
-								<th class="column4">Railway Stations</th>
-								<th class="column5">Sub Railway Stations</th>
-								<th class="column6">Train Halts</th>
-								<th class="column7">View</th>
-								<th class="column8">Stopping Station</th>
-							</tr>
-						</thead>
-						<tbody>
-								<tr>
-									<td class="column1">01</td>
-									<td class="column2">Main Line From (Fort to Badulla)</td>
-									<td class="column3">290</td>
-									<td class="column4">45</td>
-									<td class="column5">33</td>
-									<td class="column6">26</td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/main.PNG">
-                <img src="images/main.PNG" width="50" height="50" />
-              </a>
-</section></td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/main_station.PNG">
-                <img src="images/main_station.PNG" width="50" height="50" />
-              </a>
-</section></td>
-								</tr>
-								<tr class="active-row">
-									<td class="column1">02</td>
-									<td class="column2">Matale Line (Peradeniya Junction to Matale)</td>
-									<td class="column3">33</td>
-									<td class="column4">06</td>
-									<td class="column5">06</td>
-									<td class="column6">12</td>
-									<td class="column7">None</td>
-									<td class="column8">None</td>
-								</tr>
-								<tr>
-									<td class="column1">03</td>
-									<td class="column2">Puttalam Line (Fort to Puttalam)</td>
-									<td class="column3">157</td>
-									<td class="column4">19</td>
-									<td class="column5">25</td>
-									<td class="column6">0</td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/puttalam.PNG">
-                <img src="images/puttalam.PNG" width="50" height="50" />
-              </a>
-</section></td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/puttalam_station.PNG">
-                <img src="images/puttalam_station.PNG" width="50" height="50" />
-              </a>
-</section></td>
-							</tr>
-								<tr class="active-row">
-									<td class="column1">04</td>
-									<td class="column2">Kelanively line (Fort to Avisawella)</td>
-									<td class="column3">59</td>
-									<td class="column4">11</td>
-									<td class="column5">19</td>
-									<td class="column6">7</td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/kelani.PNG">
-                <img src="images/kelani.PNG" width="50" height="50" />
-              </a>
-</section></td>
-									<td class="column8">None</td>
-								</tr>
-								<tr>
-									<td class="column1">05</td>
-									<td class="column2">Batticaloa Line (From Maho to Batticaloa)</td>
-									<td class="column3">207</td>
-									<td class="column4">14</td>
-									<td class="column5">17</td>
-									<td class="column6">05</td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/eastern.PNG">
-                <img src="images/eastern.PNG" width="50" height="50" />
-              </a>
-</section></td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/eastern_station.PNG">
-                <img src="images/eastern_station.PNG" width="50" height="50" />
-              </a>
-</section></td>
-								</tr>
-								<tr class="active-row">
-									<td class="column1">06</td>
-									<td class="column2">Northern Line (Fort to Jaffna)</td>
-									<td class="column3">411</td>
-									<td class="column4">31</td>
-									<td class="column5">26</td>
-									<td class="column6">17</td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/northern.PNG">
-                <img src="images/northern.PNG" width="50" height="50" />
-              </a>
-</section></td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/northern_station.PNG">
-                <img src="images/northern_station.PNG" width="50" height="50" />
-              </a>
-</section></td>
-								</tr>
-								<tr>
-									<td class="column1">07</td>
-									<td class="column2">Trincomalee line (Galoya Junction
-to Trinco)</td>
-									<td class="column3">33</td>
-									<td class="column4">04</td>
-									<td class="column5">02</td>
-									<td class="column6">02</td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/eastern.PNG">
-                <img src="images/eastern.PNG" width="50" height="50" />
-              </a>
-</section></td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/eastern_station.PNG">
-                <img src="images/eastern_station.PNG" width="50" height="50" />
-              </a>
-</section></td>
-								</tr>
-								<tr class="active-row">
-									<td class="column1">08</td>
-									<td class="column2">Coastal Line (Fort to Matara)</td>
-									<td class="column3">159</td>
-									<td class="column4">37</td>
-									<td class="column5">31</td>
-									<td class="column6">0</td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/coastal.PNG">
-                <img src="images/coastal.PNG" width="50" height="50" />
-              </a>
-</section></td>
-									<td><section class="buttons">
-            <a class="img-popup" href="images/coastal_station.PNG">
-                <img src="images/coastal_station.PNG" width="50" height="50" />
-              </a>
-</section></td>
-								</tr>
-								<tr>
-									<td class="column1">09</td>
-									<td class="column2">Thallaimannar line (Anuradhapura to Thallaimannar )</td>
-									<td class="column3">106</td>
-									<td class="column4">07</td>
-									<td class="column5">04</td>
-									<td class="column6">0</td>
-									<td class="column7">None</td>
-									<td class="column8">None</td>
-								</tr>
-								<tr class="active-row">
-									<td class="column1">10</td>
-									<td class="column2">Mihintale Line (Anuradhapura to Mihintale)</td>
-									<td class="column3">10</td>
-									<td class="column4">01</td>
-									<td class="column5">0</td>
-									<td class="column6">02</td>
-									<td class="column7">None</td>
-									<td class="column8">None</td>
-								</tr>
-								
-								
-						</tbody>
-					</table>
-					
-				
-	
-	<section class="buttons">
-  
-            <a class="img-popup" href="images/network.jpg">
-                <img src="images/network.jpg" width="107" height="75" />
-              </a>
+                    <!-- Tab -->
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                        <h4>New Containers Cars and Oil Wagons for Sri Lanka Railways</h4>
+                        <p>Sri Lanka Railways received 25 tank wagons and 10 Container Cars from India. Our <a class="green page-scroll" href="#">Services</a> Sri Lanka Railways is planning to recommence rail transport of coal for Nuraichcholai Power Plant and Raw materials for Prima.</p>
+                        
+                        <!-- Progress Bars -->
+                        <div class="progress-container">
+                            <div class="title">Tank Wagons 71%</div>
+                            <div class="progress">
+                                <div class="progress-bar first" role="progressbar" aria-valuenow="29" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="title">Container Cars 29%</div>
+                            <div class="progress">
+                                <div class="progress-bar second" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                        </div> <!-- end of progress-container -->
+                        <!-- end of progress bars -->
+                        
+                    </div> <!-- end of tab-pane --> 
+                    <!-- end of tab -->
 
-       
-  
-</section>
+                    
+
+                    
+
+                </div> <!-- end of tab-content -->
+                <!-- end of tabs content -->
+
+            </div> <!-- end of tabs-container -->
+        </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2"></div> <!-- end of area-2 -->
+    </div> <!-- end of tabs -->
+    <!-- end of details 2 -->
 
 <br>
+   
 
-		
-	
-	     <!-- Footer -->
+    
+
+    <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -548,40 +386,13 @@ to Trinco)</td>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Team Pirates</a></p>
+                    <p class="p-small">Copyright Â© 2020 <a href="https://inovatik.com">Team Pirates</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     
-    
-    <script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/lisenme.js"></script>
-<script>
-jQuery('#table_format').ddTableFilter();
-</script>
-
-<script type="text/javascript">
-      $(document).ready(function() {
-
-        $('.img-popup').magnificPopup({
-          type: 'image',
-          closeOnContentClick: true,
-          closeBtnInside: false,
-          fixedContentPos: true,
-          mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-          image: {
-            verticalFit: true
-          },
-          zoom: {
-            enabled: true,
-            duration: 300 // don't foget to change the duration also in CSS
-          }
-        });
-
-      });
-    </script>
     	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
@@ -594,7 +405,7 @@ jQuery('#table_format').ddTableFilter();
     <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
     <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    <script type="text/javascript" src="js/style-switcher.js"></script>
+	<script type="text/javascript" src="js/style-switcher.js"></script>
 
 	<script type="text/javascript">
 	function googleTranslateElementInit() {
@@ -604,13 +415,6 @@ jQuery('#table_format').ddTableFilter();
 			}
 	</script>
 	
-	<script type="text/javascript">
-function showImg()
-{
-var obj=document.getElementById('Picture1');
-obj.className = 'show';
-}
-</script>
 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>

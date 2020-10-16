@@ -20,7 +20,7 @@
 	<meta property="og:type" content="article" />
 
     <!-- Website Title -->
-    <title>Passenger Services - Sri Lanka Railway</title>
+    <title>Our Network - Sri Lanka Railway</title>
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -32,41 +32,69 @@
 	<link href="css/styles.css" rel="stylesheet">
 	<!-- Style Swicther -->
 	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
-    <style>
-    #myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
+    
+   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+   
+  
+   
+     <style>
+     
+     .show{display:block;}
+.hide{display:none;}
+        /* padding-bottom and top for image */
+    .mfp-no-margins img.mfp-img {
+      padding: 0;
+    }
+    /* position of shadow behind the image */
+    .mfp-no-margins .mfp-figure:after {
+      top: 0;
+      bottom: 0;
+    }
+    /* padding for main container */
+    .mfp-no-margins .mfp-container {
+      padding: 0;
+    }
+
+
+    /* 
+
+    for zoom animation 
+    uncomment this part if you haven't added this code anywhere else
+
+    */
+    /*
+    
+    .mfp-with-zoom .mfp-container,
+    .mfp-with-zoom.mfp-bg {
+      opacity: 0;
+      -webkit-backface-visibility: hidden;
+      -webkit-transition: all 0.3s ease-out; 
+      -moz-transition: all 0.3s ease-out; 
+      -o-transition: all 0.3s ease-out; 
+      transition: all 0.3s ease-out;
+    }
+    
+    .mfp-with-zoom.mfp-ready .mfp-container {
+        opacity: 1;
+    }
+    .mfp-with-zoom.mfp-ready.mfp-bg {
+        opacity: 0.8;
+    }
+    
+    .mfp-with-zoom.mfp-removing .mfp-container, 
+    .mfp-with-zoom.mfp-removing.mfp-bg {
+      opacity: 0;
+    }
+    */
     </style>
+ 
+    
     
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 <!--  
-	<!-- Style switcher start -->
-	<div class="style-switch-wrapper">
-		<div class="style-switch-button">
-			<i class="fa fa-sliders"></i>
-		</div>
-		<h3>Style Options</h3>
-		<button id="preset1" class="btn btn-sm btn-primary"></button>
-		<button id="preset2" class="btn btn-sm btn-primary"></button>
-		<button id="preset3" class="btn btn-sm btn-primary"></button>
-		<button id="preset4" class="btn btn-sm btn-primary"></button>
-		<button id="preset5" class="btn btn-sm btn-primary"></button>
-		<button id="preset6" class="btn btn-sm btn-primary"></button>
-		<br/><br/>
-		<a class="btn btn-sm btn-primary close-styler float-right">Close X</a>
-	</div>
-	<!-- Style switcher end -->
 	
     
     <!-- Preloader -->
@@ -160,6 +188,7 @@
     <!-- end of navbar -->
 
 
+
     
     <!-- Header -->
     <header id="header" class="ex-header" style="padding-top:100px !important; padding-bottom:100px !important; background-image: url('images/history-banner.webp')">
@@ -170,16 +199,13 @@
     <!-- end of header -->
 	
 
-	<br>
-	<br>   
-	
 	<!-- Breadcrumbs -->
 	<div class="ex-basic-1">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcrumbs">
-						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>Passenger Services</span>
+						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>Our Network</span>
 					</div>
 					<!-- end of breadcrumbs -->
 				</div>
@@ -191,259 +217,198 @@
 	</div>
 	<!-- end of ex-basic-1 -->
 	<!-- end of breadcrumbs -->
-    
-    
-    <div class="container my-3">
-	<h1 class="text-center display-3">Sri Lanka Railway Information</h1>
-	<h4 class="text-muted text-center">Realtime, Simple & Fast</h4>
-	<div class="row my-4">
-		<div class="col-lg-4 col-sm-12 p-3">
-			<div class="card text-center p-2" style="width:auto; overflow:hidden;">
-		  		<img id= "image1" src="./images/1.jpg" class=" image card-img-top rounded mx-auto d-block img-fluid" alt="train" style="width: auto; height: 250px;">
-			  	<div class="card-body">
-				    <h5 class="card-title">Train Availability</h5>
-				    <p class="card-text">Find out train availability</p>
-				    <a href="#live" class="btn btn-primary">Go</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-lg-4 col-sm-12 p-3">
-			<div class="card text-center p-2" style="width:auto; overflow:hidden;">
-		  		<img src="./images/2.jpg" class=" image card-img-top rounded mx-auto d-block img-fluid" alt="train" style="width: auto; height: 250px;">
-			  	<div class="card-body">
-				    <h5 class="card-title">Train Fare</h5>
-				    <p class="card-text">Check Train Fares in just one click!</p>
-				    <a href="#fare" class="btn btn-primary">Go</a>
-				</div>
-			</div>
-			
-		</div>
-		<div class="col-lg-4 col-sm-12 p-3">
-			<div class="card text-center p-2" style="width:auto; overflow:hidden;">
-		  		<img src="./images/3.jpg" class=" image card-img-top rounded mx-auto d-block img-fluid" alt="train" style="width: 330px; height: 250px;">
-			  	<div class="card-body">
-				    <h5 class="card-title">Train Schedule</h5>
-				    <p class="card-text">Few any train schedule</p>
-				    <a href="Schedule.jsp" class="btn btn-primary">Go</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-    
-    <!-- Intro -->
-    <div id="live" class="basic-1">
-        <div class="container">
-    
-               
-                    <div class="text-container">
-                        <div class="section-title">TRAIN AVAILABILITY</div>
-                        <br>
-                        <h2>Find the train available class</h2>
-                       
-                       <table id="table_format" class="table table-bordered"><tbody>
-                       <tr>
-                       <th>Train Type</th>
-						<th>Journey</th>
-						<th>Available Class</th>
+
+
+
+					<table class="styled-table">
+						<thead>
+							<tr class="table100-head">
+								<th class="column1">No</th>
+								<th class="column2">Line</th>
+								<th class="column3">Distance KM</th>
+								<th class="column4">Railway Stations</th>
+								<th class="column5">Sub Railway Stations</th>
+								<th class="column6">Train Halts</th>
+								<th class="column7">View</th>
+								<th class="column8">Stopping Station</th>
+							</tr>
+						</thead>
+						<tbody>
+								<tr>
+									<td class="column1">01</td>
+									<td class="column2">Main Line From (Fort to Badulla)</td>
+									<td class="column3">290</td>
+									<td class="column4">45</td>
+									<td class="column5">33</td>
+									<td class="column6">26</td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/main.PNG">
+                <img src="images/main.PNG" width="50" height="50" />
+              </a>
+</section></td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/main_station.PNG">
+                <img src="images/main_station.PNG" width="50" height="50" />
+              </a>
+</section></td>
+								</tr>
+								<tr class="active-row">
+									<td class="column1">02</td>
+									<td class="column2">Matale Line (Peradeniya Junction to Matale)</td>
+									<td class="column3">33</td>
+									<td class="column4">06</td>
+									<td class="column5">06</td>
+									<td class="column6">12</td>
+									<td class="column7">None</td>
+									<td class="column8">None</td>
+								</tr>
+								<tr>
+									<td class="column1">03</td>
+									<td class="column2">Puttalam Line (Fort to Puttalam)</td>
+									<td class="column3">157</td>
+									<td class="column4">19</td>
+									<td class="column5">25</td>
+									<td class="column6">0</td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/puttalam.PNG">
+                <img src="images/puttalam.PNG" width="50" height="50" />
+              </a>
+</section></td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/puttalam_station.PNG">
+                <img src="images/puttalam_station.PNG" width="50" height="50" />
+              </a>
+</section></td>
+							</tr>
+								<tr class="active-row">
+									<td class="column1">04</td>
+									<td class="column2">Kelanively line (Fort to Avisawella)</td>
+									<td class="column3">59</td>
+									<td class="column4">11</td>
+									<td class="column5">19</td>
+									<td class="column6">7</td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/kelani.PNG">
+                <img src="images/kelani.PNG" width="50" height="50" />
+              </a>
+</section></td>
+									<td class="column8">None</td>
+								</tr>
+								<tr>
+									<td class="column1">05</td>
+									<td class="column2">Batticaloa Line (From Maho to Batticaloa)</td>
+									<td class="column3">207</td>
+									<td class="column4">14</td>
+									<td class="column5">17</td>
+									<td class="column6">05</td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/eastern.PNG">
+                <img src="images/eastern.PNG" width="50" height="50" />
+              </a>
+</section></td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/eastern_station.PNG">
+                <img src="images/eastern_station.PNG" width="50" height="50" />
+              </a>
+</section></td>
+								</tr>
+								<tr class="active-row">
+									<td class="column1">06</td>
+									<td class="column2">Northern Line (Fort to Jaffna)</td>
+									<td class="column3">411</td>
+									<td class="column4">31</td>
+									<td class="column5">26</td>
+									<td class="column6">17</td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/northern.PNG">
+                <img src="images/northern.PNG" width="50" height="50" />
+              </a>
+</section></td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/northern_station.PNG">
+                <img src="images/northern_station.PNG" width="50" height="50" />
+              </a>
+</section></td>
+								</tr>
+								<tr>
+									<td class="column1">07</td>
+									<td class="column2">Trincomalee line (Galoya Junction
+to Trinco)</td>
+									<td class="column3">33</td>
+									<td class="column4">04</td>
+									<td class="column5">02</td>
+									<td class="column6">02</td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/eastern.PNG">
+                <img src="images/eastern.PNG" width="50" height="50" />
+              </a>
+</section></td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/eastern_station.PNG">
+                <img src="images/eastern_station.PNG" width="50" height="50" />
+              </a>
+</section></td>
+								</tr>
+								<tr class="active-row">
+									<td class="column1">08</td>
+									<td class="column2">Coastal Line (Fort to Matara)</td>
+									<td class="column3">159</td>
+									<td class="column4">37</td>
+									<td class="column5">31</td>
+									<td class="column6">0</td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/coastal.PNG">
+                <img src="images/coastal.PNG" width="50" height="50" />
+              </a>
+</section></td>
+									<td><section class="buttons">
+            <a class="img-popup" href="images/coastal_station.PNG">
+                <img src="images/coastal_station.PNG" width="50" height="50" />
+              </a>
+</section></td>
+								</tr>
+								<tr>
+									<td class="column1">09</td>
+									<td class="column2">Thallaimannar line (Anuradhapura to Thallaimannar )</td>
+									<td class="column3">106</td>
+									<td class="column4">07</td>
+									<td class="column5">04</td>
+									<td class="column6">0</td>
+									<td class="column7">None</td>
+									<td class="column8">None</td>
+								</tr>
+								<tr class="active-row">
+									<td class="column1">10</td>
+									<td class="column2">Mihintale Line (Anuradhapura to Mihintale)</td>
+									<td class="column3">10</td>
+									<td class="column4">01</td>
+									<td class="column5">0</td>
+									<td class="column6">02</td>
+									<td class="column7">None</td>
+									<td class="column8">None</td>
+								</tr>
+								
+								
+						</tbody>
+					</table>
 					
-						</tr><tr>
-						<td>Intercity-Daily</td>
-						<td>Colombo-Jaffna</td>
-						<td>1st,2nd & 3rd</td>
-			
-						</tr><tr>
-						<td>Intercity-Daily</td>
-						<td>Colombo-Jaffna</td>
-						<td>2nd</td>
-					
-						</tr>
-						<tr>
-						<td>Intercity - Daily</td>
-						<td>Colombo-Kandy</td>
-						<td>1st,2nd & 3rd</td>
 				
-						</tr><tr>
-						<td>Intercity-Daily</td>
-						<td>Colombo-Baticalo</td>
-						<td>1st,2nd & 3rd</td>
-						
-						</tr>
-						<tr>
-						<td>Intercity-Daily</td>
-						<td>Colombo-Kandy</td>
-						<td>1st,2nd & 3rd</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Intercity-Weekends</td>
-						<td>Colombo-Nanuoya</td>
-						<td>1st,2nd & 3rd</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Express-Daytime</td>
-						<td>Colombo-Badulla</td>
-						<td>AFC,1st,2nd & 3rd</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Express-Daytime</td>
-						<td>Colombo-Badulla</td>
-						<td>AFC,1st,2nd & 3rd</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Express-Night</td>
-						<td>Colombo-Badulla</td>
-						<td>1st,2nd & 3rd Sleeperates</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Semi Express-Night</td>
-						<td>Colombo-Baticalo</td>
-						<td>1st,2nd & 3rd Sleeperates</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Semi Express-Night</td>
-						<td>Colombo-Trincomalee</td>
-						<td>1st,2nd & 3rd Sleeperates</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Semi Express-Night</td>
-						<td>Colombo-Vavuniya</td>
-						<td>1st,2nd & 3rd Sleeperates</td>
-					
-						</tr></tbody></table>
-                       
-                          </div> <!-- end of text-container -->
-               
-               
-           
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of intro -->
-    
-    
-    
-    
-    <!-- Intro -->
-    <div id="fare" class="basic-1">
-        <div class="container">
-    
-               
-                    <div class="text-container">
-                        <div class="section-title">TRAIN FARE</div>
-                        <br>
-                        <h2>Find the train amount</h2>
-                                               
-                       <table id="table_format1" class="table table-bordered"><tbody>
-                       <tr>
-                       <th>Train Type</th>
-						<th>Journey</th>
-						<th>Fare</th>
-					
-						</tr><tr>
-						<td>Intercity-Daily</td>
-						<td>Colombo-Jaffna</td>
-						<td>Rs300</td>
-			
-						</tr><tr>
-						<td>Intercity-Daily</td>
-						<td>Colombo-Trincomalee</td>
-						<td>Rs200</td>
-					
-						</tr>
-						<tr>
-						<td>Intercity - Daily</td>
-						<td>Colombo-Kandy</td>
-						<td>Rs400</td>
-				
-						</tr><tr>
-						<td>Intercity-Daily</td>
-						<td>Colombo-Baticalo</td>
-						<td>Rs250</td>
-						
-						</tr>
-						<tr>
-						<td>Intercity-Daily</td>
-						<td>Colombo-Vavuniya</td>
-						<td>Rs200</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Intercity-Weekends</td>
-						<td>Colombo-Nanuoya</td>
-						<td>Rs260</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Express-Daytime</td>
-						<td>Colombo-Badulla</td>
-						<td>Rs280</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Express-Daytime</td>
-						<td>Colombo-Ella</td>
-						<td>Rs1000</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Express-Night</td>
-						<td>Colombo-Galle</td>
-						<td>Rs210</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Semi Express-Night</td>
-						<td>Colombo-Pollanaruva</td>
-						<td>Rs320</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Semi Express-Night</td>
-						<td>Colombo-Annuradhapura</td>
-						<td>Rs440</td>
-				
-						</tr>
-						
-						<tr>
-						<td>Semi Express-Night</td>
-						<td>Colombo-Puthalam</td>
-						<td>Rs240</td>
-					
-						</tr></tbody></table>
-                       
-                          </div> <!-- end of text-container -->
-               
-               
-           
-        </div> <!-- end of container -->
-    </div> <!-- end of basic-1 -->
-    <!-- end of intro -->
-    
-    
-   
-    
-    
-    
-      <!-- Footer -->
+	
+	<section class="buttons">
+  
+            <a class="img-popup" href="images/network.jpg">
+                <img src="images/network.jpg" width="107" height="75" />
+              </a>
+
+       
+  
+</section>
+
+<br>
+
+		
+	
+	     <!-- Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -580,33 +545,27 @@
 <script>
 jQuery('#table_format').ddTableFilter();
 </script>
-<script>
-jQuery('#table_format1').ddTableFilter();
-</script>
-<script>
-jQuery('#table_format2').ddTableFilter();
-</script>
 
-<script>
-function myFunction() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("table_format2");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }       
-  }
-}
-</script>
+<script type="text/javascript">
+      $(document).ready(function() {
+
+        $('.img-popup').magnificPopup({
+          type: 'image',
+          closeOnContentClick: true,
+          closeBtnInside: false,
+          fixedContentPos: true,
+          mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+          image: {
+            verticalFit: true
+          },
+          zoom: {
+            enabled: true,
+            duration: 300 // don't foget to change the duration also in CSS
+          }
+        });
+
+      });
+    </script>
     	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
@@ -629,6 +588,13 @@ function myFunction() {
 			}
 	</script>
 	
+	<script type="text/javascript">
+function showImg()
+{
+var obj=document.getElementById('Picture1');
+obj.className = 'show';
+}
+</script>
 
 	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>

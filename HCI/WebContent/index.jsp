@@ -18,11 +18,11 @@
       </div>
 
       <div class="col-md-12">
-       
+       <a class="btn btn-full scrollto" href="Home.jsp">Get Started Now</a>
       
 
        
-        <a class="btn btn-full scrollto" href="Home.jsp"></a>
+        
       </div>
     </div>
 

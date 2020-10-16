@@ -70,7 +70,7 @@
       
         
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/logo.png" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/trainlogo.png" alt="alternative"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -200,15 +200,17 @@
 		<!------------------------- Photo Grid---------------------------------------------------------------- -->
 		
 		<div class="row">
-			<div class="column" style="margin-left: 170px;">
+			<div class="column" style="margin-left: 100px;">
 				<img src="images/L1.jpg" style="width: 30%"> 
-				<img src="images/L2.png" style="width: 30%">
-				<img src="images/l3.jpg" style="width: 30%">
+				
+				<img src="images/l3.jpg" style="width: 25%">
+				<img src="images/L2.jpg" style="width: 30%">
 				
 			</div>
-			<div class="column" style="margin-left: 40px;">
+			<br>
+			<div class="column" style="margin-left: 100px;">
 				<img src="images/l4.jpg" style="width: 30%"> 
-				<img src="images/l5.jpg" style="width: 30%">
+				<img src="images/l5.jpg" style="width: 25%">
 				<img src="images/l6.jpg" style="width: 30%">
 				
 				

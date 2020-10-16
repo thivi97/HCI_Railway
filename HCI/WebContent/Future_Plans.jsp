@@ -28,7 +28,7 @@
   #mySidenav a {
   position: fixed;
   right: -90px;
-  transition: 0.3s;
+  transition: 0.2s;
   padding: 15px;
   width: 100px;
   text-decoration: none;
@@ -162,7 +162,7 @@ background-color:#ced3db;
       
         
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/logo.png" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/trainlogo.png" alt="alternative"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -312,9 +312,9 @@ background-color:#ced3db;
 	<!-- ---------------------------------------------------------------------------------------------------->
 	
 	
-	<div class="row" style="margin-left: 17px">
+	<div class="row" style="margin-left: 7px">
   <div class="col-sm-6">
-   <div class="card" style="width: 600px; height: 650px;border-color: blue;">
+   <div class="card" style="width: 600px; height: 650px;border-color: blue;border-width:2px;">
   <img src="images/card2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h3 class="card-title" >Construction of Railway Lines</h3>
@@ -326,7 +326,7 @@ background-color:#ced3db;
   </div>
   
  <div class="col-sm-6">
-   <div class="card" style="width: 600px; height: 650px;border-color: blue;">
+   <div class="card" style="width: 600px; height: 650px;border-color: blue;border-width:2px;">
   <img src="images/card1.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h3 class="card-title" >Light Rail Project</h3>
@@ -338,9 +338,9 @@ background-color:#ced3db;
   </div> 
   
   </div>
-  <div class="row" style="margin-left: 17px; padding-top: 20px; padding-bottom: 20px">
+  <div class="row" style="margin-left: 7px; padding-top: 20px; padding-bottom: 20px">
   <div class="col-sm-6">
-   <div class="card" style="width: 600px; height: 750px; border-color: blue;">
+   <div class="card" style="width: 600px; height: 750px; border-color: blue; border-width:2px;">
   <img src="images/card3.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h3 class="card-title" >New Luxury Train</h3>
@@ -352,7 +352,7 @@ background-color:#ced3db;
   </div>
   
  <div class="col-sm-6">
-   <div class="card" style="width: 600px; height: 750px;border-color: blue; " >
+   <div class="card" style="width: 600px; height: 750px;border-color: blue; border-width:2px;" >
   <img src="images/card4.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h3 class="card-title" >Railway Shoppping complex</h3>
@@ -556,7 +556,7 @@ background-color:#ced3db;
 			slides[slideIndex-1].style.display = "block";
 			dots[slideIndex-1].className += " active";
 
-			setTimeout(showSlides,4000); //change every 2 seconds
+			setTimeout(showSlides,2000); //change every 2 seconds
 		}
 	</script>
 

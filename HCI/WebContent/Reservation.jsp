@@ -179,7 +179,7 @@ color:blue;
       
         
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/logo.png" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/trainlogo.png" alt="alternative"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -298,10 +298,10 @@ color:blue;
 </div>
 	
 	<br><br>
-	<img src="images/ad.png" align="right" alt="AD" width="200" height="530">
+	<img src="images/ad.png" align="right" alt="AD" width="200" height="530" style="margin-right:10px;">
 	<br><br>
 
-<button type="button" class="collapsible">Reservation of Special Trains</button>
+<button type="button" class="collapsible" style="margin-left:30px;">Reservation of Special Trains</button>
 <div class="content">
 <table>
   <tr>
@@ -338,7 +338,7 @@ color:blue;
 </div>
 </br><br>
 
-<button type="button" class="collapsible">Reservation of Compartments</button>
+<button type="button" class="collapsible" style="margin-left:30px;">Reservation of Compartments</button>
 <div class="content">
   <table>
   <tr>
@@ -369,7 +369,7 @@ color:blue;
 </div>
 </br><br>
 
-<button type="button" class="collapsible">Displaying Advertisements at Railway Permission</button>
+<button type="button" class="collapsible" style="margin-left:30px;">Displaying Advertisements at Railway Permission</button>
 <div class="content">
   <table>
   <tr>
@@ -389,7 +389,7 @@ color:blue;
 </div>
 </br><br>
 
-<button type="button" class="collapsible">  Photographing or Filming in Railway Premises</button>
+<button type="button" class="collapsible" style="margin-left:30px;">  Photographing or Filming in Railway Premises</button>
 <div class="content">
  <table>
         
@@ -416,7 +416,7 @@ color:blue;
 </div>
 </br><br>
 
-<button type="button" class="collapsible">Normal Parcel Rates</button>
+<button type="button" class="collapsible" style="margin-left:30px;">Normal Parcel Rates</button>
 <div class="content">
  <table>
   <tr>

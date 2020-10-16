@@ -57,12 +57,13 @@
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: #fff;
-  padding: 40px 100px;
+  padding: 15px 45px;
   border-radius: 50px;
-  marin-top: 80%;
+ 
 
-  background-image:url(../images/train.gif);
+ 
 }
+
 
 .btn:hover {
   background-color: #E04F00;
@@ -82,5 +83,8 @@
   background-color: #fff;
   color: #199EB8;
 }
+
+
+
 
 

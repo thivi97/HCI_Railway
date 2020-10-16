@@ -123,7 +123,7 @@
       
         
         <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/logo.png" alt="alternative"></a>
+        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/trainlogo.png" alt="alternative"></a>
         
         <!-- Mobile Menu Toggle Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -323,8 +323,8 @@
 									<td class="column5">17</td>
 									<td class="column6">05</td>
 									<td><section class="buttons">
-            <a class="img-popup" href="images/eastern.PNG">
-                <img src="images/eastern.PNG" width="50" height="50" />
+            <a class="img-popup" href="images/east.PNG">
+                <img src="images/east.PNG" width="50" height="50" />
               </a>
 </section></td>
 									<td><section class="buttons">
@@ -360,8 +360,8 @@ to Trinco)</td>
 									<td class="column5">02</td>
 									<td class="column6">02</td>
 									<td><section class="buttons">
-            <a class="img-popup" href="images/eastern.PNG">
-                <img src="images/eastern.PNG" width="50" height="50" />
+            <a class="img-popup" href="images/east.PNG">
+                <img src="images/east.PNG" width="50" height="50" />
               </a>
 </section></td>
 									<td><section class="buttons">
@@ -415,10 +415,10 @@ to Trinco)</td>
 					
 				
 	
-	<section class="buttons">
+	<section class="buttons" style="margin-left:5px;">
   
             <a class="img-popup" href="images/network.jpg">
-                <img src="images/network.jpg" width="107" height="75" />
+                <img src="images/network.jpg" style="width:100px; margin-left:20px; border: 3px solid #555;"/>
               </a>
 
        

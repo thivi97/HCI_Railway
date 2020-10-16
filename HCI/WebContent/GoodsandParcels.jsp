@@ -54,83 +54,93 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".fixed-top">
-<!--  
-	
-	
-    
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
-    <!-- end of preloader -->
-    
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-      
-        
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/logo.png" alt="alternative"></a>
-        
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
-        
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="Home.jsp">HOME</a>
-                </li>
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="sr-only">(current)</span></a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="OverView.jsp"><span class="item-text">OVERVIEW</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="History.jsp"><span class="item-text">HISTORY</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="Future_Plans.jsp"><span class="item-text">FUTURE PLANS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="Network.jsp"><span class="item-text">OUR NETWORK</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="SLR_at_Glance.jsp"><span class="item-text">SLR AT A GLANCE</span></a>
-                    </div>
-                </li>
-                <!-- end of dropdown menu -->
-               <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#"><span class="item-text">TRAIN SCHEDULE</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="PassengerServices.jsp"><span class="item-text">PASSENGER SERVICE</span></a>
-                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="GoodsandParcels.jsp"><span class="item-text">GOODS & PARCELS</span></a>
-                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="Reservation.jsp"><span class="item-text">RESERVATIONS</span></a>
-                         <div class="dropdown-items-divide-hr"></div>
-                          <a class="dropdown-item" href="CostCalculation.jsp"><span class="item-text">COST CALCULATION</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="OtherServices.jsp"><span class="item-text">OTHER SERVICES</span></a>
-                    </div>
-                </li>
-                <!-- end of dropdown menu -->
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="Gallery.jsp">GALLERY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="Tourism.jsp">TOURISM</a>
-                </li>
 
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
+<body>
+
+<!-- Preloader -->
+	<!-- <div class="spinner-wrapper">
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div> -->
+	<!-- end of preloader -->
+
+	<!-- Navbar -->
+	<nav
+		class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+		<!-- Text Logo - Use this if you don't have a graphic logo -->
+		<!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+
+		<!-- Image Logo -->
+		<a class="navbar-brand logo-image" href="Home.jsp"><img
+			src="images/trainlogo.png" alt="alternative"></a>
+
+		<!-- Mobile Menu Toggle Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarsExampleDefault"
+			aria-controls="navbarsExampleDefault" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-awesome fas fa-bars"></span> <span
+				class="navbar-toggler-awesome fas fa-times"></span>
+		</button>
+		<!-- end of mobile menu toggle button -->
+
+		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link page-scroll"
+					href="Home.jsp">HOME <span class="sr-only">(current)</span></a></li>
+				<!-- Dropdown Menu -->
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp"
+					id="navbarDropdown" role="button" aria-haspopup="true"
+					aria-expanded="false">ABOUT US</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="OverView.jsp"><span class="item-text">OVERVIEW</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="History.jsp"><span
+							class="item-text">HISTORY</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="Future_Plans.jsp"><span class="item-text">FUTURE
+								PLANS</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="Network.jsp"><span class="item-text">OUR
+								NETWORK</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="SLR_at_Glance.jsp"><span class="item-text">SLR AT A GLANCE</span></a>
+					</div></li>
+				<!-- end of dropdown menu -->
+				<!-- Dropdown Menu -->
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle page-scroll" href="Services.jsp"
+					id="navbarDropdown" role="button" aria-haspopup="true"
+					aria-expanded="false">OUR SERVICES</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#"><span class="item-text">TRAIN
+								SCHEDULE</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="PassengerServices.jsp"><span
+							class="item-text">PASSENGER SERVICE</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="GoodsandParcels.jsp"><span class="item-text">GOODS
+								& PARCELS</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="Reservation.jsp"><span class="item-text">RESERVATIONS</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="Reservation.jsp"><span class="item-text">COST CALCULATION</span></a>
+						<div class="dropdown-items-divide-hr"></div>
+						<a class="dropdown-item" href="#"><span class="item-text">OTHER
+								SERVICES</span></a>
+					</div></li>
+				<!-- end of dropdown menu -->
+				<li class="nav-item"><a class="nav-link page-scroll"
+					href="Gallery.jsp">GALLERY</a></li>
+				<li class="nav-item"><a class="nav-link page-scroll"
+					href="Tourism.jsp">TOURISM</a></li>
+
+				<!-- Dropdown Menu -->
+				 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">NOTICES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">TENDER NOTICES</span></a>
@@ -142,13 +152,16 @@
                         <a class="dropdown-item" href="Downloads.jsp"><span class="item-text">DOWNLOADS</span></a>
                     </div>
                 </li>
-                <!-- end of dropdown menu -->
-                <div id="google_translate_element"></div>
-            </ul>
-            
-        </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navbar -->
+				<!-- end of dropdown menu -->
+				
+				<div id="google_translate_element"></div>
+			</ul>
+
+		</div>
+		
+
+	</nav>
+	<!-- end of navbar -->
 
 
 	<!-- Header -->

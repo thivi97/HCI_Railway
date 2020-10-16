@@ -129,11 +129,11 @@ tr:nth-child(even) {
 					href="Home.jsp">HOME <span class="sr-only">(current)</span></a></li>
 				<!-- Dropdown Menu -->
 				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle page-scroll" href="#about"
+					class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp"
 					id="navbarDropdown" role="button" aria-haspopup="true"
 					aria-expanded="false">ABOUT US</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="Overview.jsp"><span class="item-text">OVERVIEW</span></a>
+						<a class="dropdown-item" href="OverView.jsp"><span class="item-text">OVERVIEW</span></a>
 						<div class="dropdown-items-divide-hr"></div>
 						<a class="dropdown-item" href="History.jsp"><span
 							class="item-text">HISTORY</span></a>
@@ -365,7 +365,7 @@ tr:nth-child(even) {
 					<div class="text-container">
 						<h4>ABOUT US</h4>
 						<ul class="list-unstyled li-space-lg white">
-							<li><a class="white" href="Overview.jsp">OVERVIEW</a></li>
+							<li><a class="white" href="OverView.jsp">OVERVIEW</a></li>
 							<li><a class="white" href="History.jsp">HISTORY</a></li>
 							<li><a class="white" href="Future_plans.jsp">FUTURE PLANS</a></li>
 							<li><a class="white" href="Network.jsp">OUR NETWORK</a></li>
@@ -408,7 +408,7 @@ tr:nth-child(even) {
 						<ul class="list-unstyled li-space-lg">
 							<li><a class="white" href="HeadOffice.jsp">HEAD OFFICE DETAILS</a></li>
 							<li><a class="white" href="StationDetails.jsp">STATION DETAILS</a></li>
-							<li><a class="white" href="Contactus.jsp">FEEDBACK</a></li>
+							
 							<li><a class="white" href="">FAQ</a></li>
 
 						</ul>

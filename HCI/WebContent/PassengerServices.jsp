@@ -111,7 +111,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Overview.jsp"><span class="item-text">OVERVIEW</span></a>
+                        <a class="dropdown-item" href="OverView.jsp"><span class="item-text">OVERVIEW</span></a>
                         <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="History.jsp"><span class="item-text">HISTORY</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -471,7 +471,7 @@
                         <h4>ABOUT US</h4>
                         <ul class="list-unstyled li-space-lg white">
                             <li>
-                                <a class="white" href="Overview.jsp">OVERVIEW</a>
+                                <a class="white" href="OverView.jsp">OVERVIEW</a>
                             </li>
                             <li>
                                 <a class="white" href="History.jsp">HISTORY</a>
@@ -539,9 +539,7 @@
                             <li>
                                 <a class="white" href="StationDetails.jsp">STATION DETAILS</a>
                             </li>
-                            <li>
-                                <a class="white" href="Contactus.jsp">FEEDBACK</a>
-                            </li>
+                           
                             <li>
                                 <a class="white" href="Faq.jsp">FAQ</a>
                             </li>

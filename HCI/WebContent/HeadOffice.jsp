@@ -152,7 +152,7 @@ color:blue;
 					href="Home.jsp">HOME <span class="sr-only">(current)</span></a></li>
 				<!-- Dropdown Menu -->
 				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle page-scroll" href="#about"
+					class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp"
 					id="navbarDropdown" role="button" aria-haspopup="true"
 					aria-expanded="false">ABOUT US</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -338,7 +338,7 @@ color:blue;
 						<ul class="list-unstyled li-space-lg">
 							<li><a class="white" href="HeadOffice.jsp">HEAD OFFICE DETAILS</a></li>
 							<li><a class="white" href="StationDetails.jsp">STATION DETAILS</a></li>
-							<li><a class="white" href="Contactus.jsp">FEEDBACK</a></li>
+							
 							<li><a class="white" href="">FAQ</a></li>
 
 						</ul>

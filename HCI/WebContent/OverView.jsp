@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Overview</title>
+<title>Overview - Sri Lanka Railway</title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Styles -->
@@ -82,7 +82,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME</a>
+                    <a class="nav-link page-scroll" href="Home.jsp">HOME</a>
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">

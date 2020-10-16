@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Department Notices</title>
+    <title>Department Notices - Sri Lanka Railway</title>
     
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -161,7 +161,7 @@ img:hover {
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME</a>
+                    <a class="nav-link page-scroll" href="Home.jsp">HOME</a>
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">

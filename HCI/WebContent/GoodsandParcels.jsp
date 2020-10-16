@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Goods and Parcels</title>
+<title>Goods and Parcels - Sri Lanka Railway</title>
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
@@ -86,7 +86,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME</a>
+                    <a class="nav-link page-scroll" href="Home.jsp">HOME</a>
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">

@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Feedback</title>
+  <title>Feedback - Sri Lanka Railway</title>
   <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
@@ -124,8 +124,7 @@ text-align:center;
     </div>
     <!-- end of preloader -->
     
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
       
         
         <!-- Image Logo -->
@@ -141,7 +140,7 @@ text-align:center;
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME</a>
+                    <a class="nav-link page-scroll" href="Home.jsp">HOME</a>
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
@@ -204,7 +203,6 @@ text-align:center;
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navbar -->
-
 
 	<!-- Header -->
 	<header id="header" class="ex-header" style="padding-top:100px !important; padding-bottom:100px !important; background-image: url('images/history-banner.webp')">

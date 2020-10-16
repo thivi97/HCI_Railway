@@ -19,6 +19,28 @@
 <link rel="icon" href="images/favicon.png">
 
 <style>
+
+ #contact {
+  top: 200px;
+  background-color: #555;
+  }
+  
+  #mySidenav a {
+  position: fixed;
+  right: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 5px;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
 body {
 background-color:#ced3db;
    
@@ -249,7 +271,10 @@ background-color:#ced3db;
 	<!-- end of ex-basic-1 -->
 	<!-- end of breadcrumbs -->
 	
-	
+	<div id="mySidenav" class="sidenav">
+ 
+  <a href="Contactus.jsp" id="contact">Feedback</a>
+</div>
 	
 <div class="slideshow-container">
 		<div class="mySlides fade">

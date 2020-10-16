@@ -19,7 +19,30 @@
 <!-- Favicon  -->
 <link rel="icon" href="images/favicon.png">
 
+
 <style>
+
+ #contact {
+  top: 200px;
+  background-color: #555;
+  }
+  
+  #mySidenav a {
+  position: fixed;
+  right: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 5px;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
 #big-letter::first-letter{
 	font-size: 250%;
 }
@@ -171,6 +194,11 @@
 	</div>
 	<!-- end of ex-basic-1 -->
 	<!-- end of breadcrumbs -->
+	
+	<div id="mySidenav" class="sidenav">
+ 
+  <a href="Contactus.jsp" id="contact">Feedback</a>
+</div>
 
 	<!-- Intro -->
 	<div id="intro" style="padding-bottom: 50px;">

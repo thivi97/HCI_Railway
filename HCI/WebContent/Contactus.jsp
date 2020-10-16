@@ -23,6 +23,28 @@
 
 
 <style>
+
+ #contact {
+  top: 200px;
+  background-color: #555;
+  }
+  
+  #mySidenav a {
+  position: fixed;
+  right: -90px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 5px;
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+
 body, html {
   height: 100%;
   margin: 0;
@@ -219,7 +241,10 @@ text-align:center;
 	<!-- end of ex-basic-1 -->
 	<!-- end of breadcrumbs -->
 	
-	
+	<div id="mySidenav" class="sidenav">
+ 
+  <a href="Contactus.jsp" id="contact">Feedback</a>
+</div>
 
 <div class="bg-image">
 <br><br>

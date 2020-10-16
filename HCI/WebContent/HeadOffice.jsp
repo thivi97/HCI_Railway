@@ -151,25 +151,20 @@ color:blue;
 				<li class="nav-item"><a class="nav-link page-scroll"
 					href="Home.jsp">HOME <span class="sr-only">(current)</span></a></li>
 				<!-- Dropdown Menu -->
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp"
-					id="navbarDropdown" role="button" aria-haspopup="true"
-					aria-expanded="false">ABOUT US</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="Overview.jsp"><span class="item-text">OVERVIEW</span></a>
-						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="History.jsp"><span
-							class="item-text">HISTORY</span></a>
-						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="Future_Plans.jsp"><span class="item-text">FUTURE
-								PLANS</span></a>
-						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item" href="Network.jsp"><span class="item-text">OUR
-								NETWORK</span></a>
-						<div class="dropdown-items-divide-hr"></div>
-						<a class="dropdown-item active" href="SLR_at_Glance.jsp"><span class="item-text">SLR
-								AT A GLANCE</span></a>
-					</div></li>
+				 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="sr-only">(current)</span></a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="OverView.jsp"><span class="item-text">OVERVIEW</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="History.jsp"><span class="item-text">HISTORY</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="Future_Plans.jsp"><span class="item-text">FUTURE PLANS</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="Network.jsp"><span class="item-text">OUR NETWORK</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="SLR_at_Glance.jsp"><span class="item-text">SLR AT A GLANCE</span></a>
+                    </div>
+                </li>
 				<!-- end of dropdown menu -->
 				<!-- Dropdown Menu -->
 				<li class="nav-item dropdown"><a

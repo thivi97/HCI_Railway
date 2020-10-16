@@ -106,6 +106,7 @@
 <body data-spy="scroll" data-target=".fixed-top">
 <!--  
 	
+	
     
     <!-- Preloader -->
 	<div class="spinner-wrapper">
@@ -119,8 +120,7 @@
     
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+      
         
         <!-- Image Logo -->
         <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/logo.png" alt="alternative"></a>
@@ -139,7 +139,7 @@
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="sr-only">(current)</span></a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="OverView.jsp"><span class="item-text">OVERVIEW</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -155,7 +155,7 @@
                 <!-- end of dropdown menu -->
                <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES<span class="sr-only">(current)</span></a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">TRAIN SCHEDULE</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -165,6 +165,8 @@
                          <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="Reservation.jsp"><span class="item-text">RESERVATIONS</span></a>
                          <div class="dropdown-items-divide-hr"></div>
+                          <a class="dropdown-item" href="CostCalculation.jsp"><span class="item-text">COST CALCULATION</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="OtherServices.jsp"><span class="item-text">OTHER SERVICES</span></a>
                     </div>
                 </li>
@@ -198,7 +200,6 @@
     <!-- end of navbar -->
 
 
-
     
     <!-- Header -->
     <header id="header" class="ex-header" style="padding-top:100px !important; padding-bottom:100px !important; background-image: url('images/history-banner.webp')">
@@ -221,7 +222,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcrumbs">
-						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span>Our Network</span>
+						<a href="Home.jsp">Home</a><i class="fa fa-angle-double-right"></i><span><a href="Aboutus.jsp">About Us</a></span><i class="fa fa-angle-double-right"></i><span>Our Network</span>
 					</div>
 					<!-- end of breadcrumbs -->
 				</div>

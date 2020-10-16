@@ -227,10 +227,9 @@ div.content {
     </div>
     <!-- end of preloader -->
     
-     <!-- Navbar -->
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
+      
         
         <!-- Image Logo -->
         <a class="navbar-brand logo-image" href="Home.jsp"><img src="images/logo.png" alt="alternative"></a>
@@ -249,7 +248,7 @@ div.content {
                 </li>
                 <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="Aboutus.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT US<span class="sr-only">(current)</span></a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="OverView.jsp"><span class="item-text">OVERVIEW</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -265,7 +264,7 @@ div.content {
                 <!-- end of dropdown menu -->
                <!-- Dropdown Menu -->          
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES<span class="sr-only">(current)</span></a>
+                    <a class="nav-link dropdown-toggle page-scroll" href="Services.jsp" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OUR SERVICES</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#"><span class="item-text">TRAIN SCHEDULE</span></a>
                         <div class="dropdown-items-divide-hr"></div>
@@ -275,6 +274,8 @@ div.content {
                          <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="Reservation.jsp"><span class="item-text">RESERVATIONS</span></a>
                          <div class="dropdown-items-divide-hr"></div>
+                          <a class="dropdown-item" href="CostCalculation.jsp"><span class="item-text">COST CALCULATION</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
                         <a class="dropdown-item" href="OtherServices.jsp"><span class="item-text">OTHER SERVICES</span></a>
                     </div>
                 </li>
@@ -306,7 +307,6 @@ div.content {
         </div>
     </nav> <!-- end of navbar -->
     <!-- end of navbar -->
-
 
     
     <!-- Header -->
